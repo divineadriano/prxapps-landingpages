@@ -1,0 +1,7 @@
+{
+  "name": "Start on Heroku: Node.js",
+  "description": "Proxibox's landing page",
+  "repository": "https://github.com/divineadriano/proxibox-landing-page",
+  "logo": "https://github.com/divineadriano/proxibox-landing-page/public/PROXIBOX LOGO_black-2.png",
+  "keywords": ["proxibox", "landingpage", "heroku"],
+}
