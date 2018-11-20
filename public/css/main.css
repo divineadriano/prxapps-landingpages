@@ -50,15 +50,141 @@
   background-image: url("../images/wave.png"), linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
 }
 
+.about{
+  /*margin: 0;padding: 0;*/
+  list-style: none;
+}
+.about-list{
+  background: rgb(4, 136, 136);
+  color: #fff;
+  counter-increment: myCounter;
+  margin: 0 0 30px 0;
+  padding: 13px;
+  position: relative;
+  top: 1em;
+  border-radius:  0em 2px 1em 1em;
+  padding-left: 2em;
+  font-size: 1.2em;
+  font-family: 'Lato', sans-serif;
+}
+.about-list:before{
+  content: counter(myCounter, decimal-leading-zero);
+  display: inline-block;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.3em;
+  background-color:  rgb(50, 196, 183);
+  padding: 10px;
+  font-weight: bold;
+  position: absolute; 
+  top: 0;
+  left: -40px;
+  border-radius: 50%;
+  font-family: 'Lato', sans-serif;
+}
+.about-list:nth-child(even){
+  background-color: rgb(56, 155, 150);
+}
+
 .banner{
   background-image: url('/images/appsbackground.jpg');
 }
 .bannerkyc{
   padding:10%;
-  background-image: url('/images/bgBanner.jpg');
   height:100%;
   color:white;
 }
+
+#video-background {
+    position: fixed;
+    top:0;
+    left:0;
+    min-width: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
+}
+.howto-image{
+  width:60%;
+}
+
+@media only screen and (max-width: 479px) {
+  #video-background {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: -100;
+  }
+  .kycfeatures-img{
+    width: 100%;
+  }
+  .about{
+    margin: 1.5em;
+  }
+  .about-list{
+    padding-left: 2em;
+    font-size: 1em;
+  }
+  .about-list:before{
+    content: counter(myCounter, decimal-leading-zero);
+    display: inline-block;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.3em;
+    background-color:  rgb(50, 196, 183);
+    padding: 10px;
+    font-weight: bold;
+    position: absolute; 
+    top: 0;
+    left: -40px;
+    border-radius: 50%;
+    font-family: 'Lato', sans-serif;
+  }
+  .howto-image{
+    width:90%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #video-background {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: -100;
+  }
+
+  .kycfeatures-img{
+    width: 100%;
+  }
+  .about{
+    margin: 1.5em;
+  }
+  .about-list{
+    padding-left: 2em;
+    font-size: 1em;
+  }
+  .about-list:before{
+    content: counter(myCounter, decimal-leading-zero);
+    display: inline-block;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.3em;
+    background-color:  rgb(50, 196, 183);
+    padding: 10px;
+    font-weight: bold;
+    position: absolute; 
+    top: 0;
+    left: -40px;
+    border-radius: 50%;
+    font-family: 'Lato', sans-serif;
+  }
+  .howto-image{
+    width:90%;
+  }
+}
+
 .align-item-center {
   display: flex;
   align-items: center;
@@ -117,6 +243,14 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
+}
+
+h1{
+  font-size: 3em;
+}
+
+p{
+  font-size: 1.3em;
 }
 
 h2 {
@@ -207,7 +341,7 @@ color:#fff;  }
   margin-bottom: 50px; }
 
 .mb6 {
-  margin-bottom: 60px; }
+  margin-bottom: 3em; }
 
 .m0 {
   margin-left: 0px; }
@@ -578,10 +712,7 @@ div.timer {
   background-size: cover;
   background-position: 50% 50%; }
 
-/*---------- timer CSS end ------------*/
-/*---------- Banner-CSS end ------------*/
-/*----------------------------------- 4. about css -----------------------------*/
-/*--------------------- 4.1 Why cryptency -------------------*/
+
 .pross-grid {
   padding: 50px 0; }
 
@@ -609,31 +740,6 @@ div.timer {
   font-size: 1em; }
 .check-list img {
   width: 30px; }
-
-/*------What is creptency CSS END--------*/
-/*--------------------- 4.3 Whats special about cryptency ------------------- */
-.about-special {
-  background-image: url(../images/linear-bg.png);
-  background-size: cover; }
-
-.about-special {
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed; }
-
-.benifit-box {
-  width: calc(100% + 200px );
-  margin-left: -200px; }
-  .benifit-box .media {
-    padding: 20px;
-    box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.1); }
-  .benifit-box h3 {
-    font-size: 1.27em;
-    margin-top: 10px; }
-
-.benifit-contant {
-  margin-right: 25%;
-  padding: 50px; }
 
 /*----------Whats special about cryptency CSS END ----------*/
 /* ---------------------------- 4.4 how to buy token CSS  ----------------------- */
@@ -1081,13 +1187,17 @@ ul.social {
   padding: 60px 60px 60px 60px;
   border-radius: 10px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-  position: relative; }
+  position: relative; 
+  font-family: 'Lato', sans-serif;
+}
   .contact-form input {
+    font-family: 'Lato', sans-serif;
     height: 50px; }
   .contact-form .form-group {
     margin-bottom: 30px;
     position: relative; }
   .contact-form label {
+    font-family: 'Lato', sans-serif;
     position: absolute;
     top: 25px;
     left: 15px;
@@ -1098,9 +1208,10 @@ ul.social {
     color: #000;
     font-size: 0.75em;
     letter-spacing: 2px;
-    text-transform: uppercase; }
+  }
 
 .contact-form input, .contact-form textarea {
+  font-family: 'Lato', sans-serif;
   border: 1px solid transparent;
   box-shadow: none !important;
   border-radius: 0;
@@ -1109,11 +1220,15 @@ ul.social {
   transition: all 350ms cubic-bezier(0.285, 0.105, 0.465, 1.015);
   padding: 15px; }
   .contact-form input:focus, .contact-form textarea:focus {
-    border-color: #FFF; }
+    font-family: 'Lato', sans-serif;
+    border-color: #FFF;
+  }
   .contact-form input:focus + label, .contact-form input:valid + label, .contact-form textarea:focus + label, .contact-form textarea:valid + label {
     top: -10px;
     left: 0;
-    color: #FFF; }
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+  }
 
 #map {
   height: 600px;
