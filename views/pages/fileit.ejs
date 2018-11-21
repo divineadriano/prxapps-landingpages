@@ -26,9 +26,14 @@
                var database = firebase.database();
                var firebaseref = database.ref();
                var subscriber = document.getElementById("subscriberEmail").value;
-               firebaseref.child("Subscribers").push().set({EmailAddress:subscriber});
-               document.getElementById("subscriberEmail").value="";
-               window.alert('You have subscribed to ProximaX File It! We will keep in touch with your shortly.');
+               if (subscriber === ''){
+                  window.alert('Email is required');
+               } else{
+                  firebaseref.child("Subscribers").push().set({EmailAddress:subscriber});
+                  window.alert('You have subscribed to ProximaX File It! We will keep in touch with your shortly.');
+               }
+               var email = document.getElementById("subscriberEmail").value="";
+               
          }
       </script>
       <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
