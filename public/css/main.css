@@ -57,6 +57,14 @@
   color:white;
   overflow: hidden;
 }
+
+.bannerNotes{
+  padding:10%;
+  background-image: url('/images/background_Home.jpg');
+  height:100%;
+  color:white;
+  overflow: hidden;
+}
 .featureimages{
   border-radius:50%;
   width:100%;
