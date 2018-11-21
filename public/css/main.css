@@ -50,6 +50,64 @@
   background-image: url("../images/wave.png"), linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
 }
 
+.bannerFileit{
+  padding:10%;
+  background-image: url('/images/fileit/bkg.jpg');
+  height:100%;
+  color:white;
+  overflow: hidden;
+}
+.featureimages{
+  border-radius:50%;
+  width:100%;
+  height:100%;
+  padding:10%;
+}
+.subscriber-input{
+  width:40%;
+  height:2.0em;
+  border:none;
+  border-radius:0.3em;
+  padding-left:0.5em !important;
+  margin-right: 0.2em;
+  color:black;
+  font-size: 1.5em;
+}
+
+.btn-subscribe{
+  width:15%;
+  height:2.3em;
+  border:2px solid white;
+  border-radius:0.3em;
+  padding-left:0.5em !important;
+  margin-right: 0.1em;
+  color:white;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.btn-subscribe:hover{
+  width:15%;
+  height:2.3em;
+  border:none;
+  background: #036d67;
+  border-radius:0.3em;
+  padding-left:0.5em !important;
+  margin-right: 0.1em;
+  color:white;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.headerText{
+  margin-top:1em;
+  font-size: 2em !important;
+}
+.headersubText{
+  font-weight:normal;
+  font-size:1.3em;
+}
+
 .about{
   /*margin: 0;padding: 0;*/
   list-style: none;
@@ -151,6 +209,17 @@
   font-size:1em;
 }
 @media only screen and (max-width: 479px) {
+  .fileitlogo{
+    width:80% !important;
+  }
+  .headerText{
+    margin-top:1em;
+    font-size: 1.3em !important;
+  }
+  .headersubText{
+    font-weight:normal;
+    font-size:0.8em;
+  }
   .mb5{
     margin-bottom: 10px !important;
   }
