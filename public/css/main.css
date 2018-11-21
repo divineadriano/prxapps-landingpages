@@ -37,7 +37,7 @@
 
 .bg-gray{
 	padding-top:50px;
-	background: #525252;
+	background: #818181;
 	color:#fff;
 }
 
@@ -86,8 +86,25 @@
   background-color: rgb(56, 155, 150);
 }
 
+.inner-image {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+
 .banner{
   background-image: url('/images/appsbackground.jpg');
+}
+.banner-header{
+  font-size: 3em !important;
+  font-weight: bold;
+  z-index: -5;
+  text-shadow: 2px 2px 4px #3a3a3a;
+}
+.banner-headerp{
+  font-size: 2em !important;
+  font-weight: normal;
+  text-shadow: 2px 2px 4px #3a3a3a;
 }
 .bannerkyc{
   padding:10%;
@@ -95,29 +112,99 @@
   color:white;
 }
 
+.bannerlogo{
+  width: 80%;
+  margin-top: 15%;
+}
+
 #video-background {
-    position: fixed;
-    top:0;
-    left:0;
-    min-width: 100%;
-    width: auto; 
-    height: auto;
-    z-index: -100;
+  position: absolute;
+  top:0;
+  left:0;
+  min-width: 100%;
+  width: auto; 
+  z-index: -10;
+  overflow: hidden;
 }
 .howto-image{
   width:60%;
 }
+.headerlogo{
+  width:60%;
+}
 
+.gdprimage{
+  width:10%;
+}
+.gif{
+  width:110% !important;
+}
+.gifrow{
+  margin-top:2em;
+  padding:2em;
+}
+.giftext{
+  padding-left:0 !important;
+}
+
+.gdprtext{
+  font-size:1em;
+}
 @media only screen and (max-width: 479px) {
+  .mb5{
+    margin-bottom: 10px !important;
+  }
+  .gifrow{
+    margin-top:0.5em;
+    margin-left:0.25em;
+    padding:0.5em;
+  }
+  .gdprtext{
+    font-size:1em;
+    padding:2em;
+    padding-top:0;
+  }
+  .gdprimage{
+    width:80%;
+  }
+  .sticky-header{
+    padding:3% !important;
+  }
+  .bannerlogo{
+    width: 100% !important;
+    margin-top: 25% !important;
+  }
+  .banner-header{
+    font-size: 2em !important;
+    font-weight: bold;
+  }
+  .banner-headerp{
+    font-size: 1em !important;
+    font-weight: normal;
+  }
   #video-background {
-    position: fixed;
+    position: absolute;
     top:0;
     left:0;
-    width: 100%;
-    z-index: -100;
+    max-width: 100%;
+    min-width: 1000px;
+    overflow: hidden;
   }
   .kycfeatures-img{
-    width: 100%;
+    margin-top: 1.5em !important;
+    margin-bottom: 1.5em !important;
+    width: 100% !important;
+  }
+  .features-text{
+    margin-top:0 !important;
+  }
+  .gifs-text{
+    padding:10% !important;
+  }
+  .gif{
+    width:100% !important;
+    margin:0 !important;
+    padding-bottom: 1.5em;
   }
   .about{
     margin: 1.5em;
@@ -144,15 +231,39 @@
   .howto-image{
     width:90%;
   }
+  .headerlogo{
+    min-width:70%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
+  .banner-header{
+    font-size: 2.5em !important;
+    font-weight: bold;
+  }
+  .banner-headerp{
+    font-size: 1.5em !important;
+    font-weight: normal;
+  }
+  .bannerlogo{
+    width: 80%;
+    margin-top: 10%;
+  }
+  .headerlogo{
+    width:20%;
+  }
+  .sticky-header{
+    padding-top:8% !important;
+    padding-bottom:8% !important;
+    overflow: hidden;
+    z-index: 10000;
+  }
   #video-background {
     position: fixed;
     top:0;
     left:0;
-    width: 100%;
-    z-index: -100;
+    max-width: 100%;
+    overflow: hidden;
   }
 
   .kycfeatures-img{

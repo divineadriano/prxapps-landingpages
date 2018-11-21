@@ -29,7 +29,7 @@
                <span class="icon-bar mid"></span>
                <span class="icon-bar btm"></span>
             </button>
-            <a href="#hero" class="site-logo navbar-brand"><img src="/images/logos/kycheaderlogo.png" width="60%"></a><!-- main logo -->
+            <a href="#hero" class="site-logo navbar-brand"><img src="/images/logos/kycheaderlogo.png" class="headerlogo"></a><!-- main logo -->
          </div>
 
          <div id="navbarCollapse" class="collapse navbar-collapse ">
@@ -49,9 +49,9 @@
    </nav>
 
    <!--BANNER-->
-   <section class="" id="home">
-      <video autoplay loop="loop" id="video-background" muted plays-inline>
-         <source src="images/video.mp4" type="video/mp4" /> 
+   <section id="home" style='overflow-x: hidden;'>
+      <video  autoplay loop="loop" id="video-background" muted plays-inline>
+         <source style='overflow-x: hidden;' src="images/video.mp4" type="video/mp4" /> 
       </video>
 
       <div class="bannerkyc burger  align-item-center parallax">
@@ -59,9 +59,9 @@
             <div class="row">
                <div class="col-lg-12 text-center">
                   <div >
-                     <img class="img-banner-logo wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s" src="images/logos/kyclogo.png" width="80%" style="margin-top:15%;"/>
-                     <h1 class="big-pera wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s" style="font-size:2em;color:white;">Blockchain Powered Onboarding & Identity Management </h1>
-                     <h4 class="big-pera wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s" style="margin-bottom: 15%;">Secure.  Private.  Permission-based.</h4>
+                     <img class="img-banner-logo wow fadeInUp bannerlogo" data-wow-delay=".2s" data-wow-duration="1s" src="images/logos/kyclogo.png" />
+                     <h1 class="big-pera wow fadeInUp banner-header" data-wow-delay=".3s" data-wow-duration="1s">Blockchain Powered Onboarding & Identity Management </h1>
+                     <h4 class="big-pera wow fadeInUp banner-headerp" data-wow-delay=".3s" data-wow-duration="1s">Secure.  Private.  Permission-based.</h4>
                   </div>
                </div>
             </div>
@@ -92,7 +92,7 @@
             <div class="col-sm-6 col-sm-push-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
                <img class="kycfeatures-img" src="images/p1.jpg">
             </div>
-               <div class="col-sm-6 col-sm-pull-5" style="margin-top:10%;padding:10%;z-index: 10;color:white;background-color: rgb(14,138,120, 0.8);position:relative;">
+               <div class="col-sm-6 col-sm-pull-5 features-text" style="margin-top:10%;padding:10%;z-index: 10;color:white;background-color: rgb(14,138,120, 0.8);position:relative;">
                   <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Migrate your existing application to our platform </h2>
                   <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
                   <p class="big-pera">We can migrate your existing application to its very <u><a href="#">own private ProximaX network.</a></a></u> You need minimal knowledge of blockchain technology, as it is completely driven by a service layer with good SDK support, and a web-service architecture. </p>
@@ -101,13 +101,13 @@
          </div>
 
          <div class="row">
-            <div class="col-sm-6 col-sm-push-5" style="margin-top:20%;padding:10%;z-index: 10;color:white;background-color: rgb(14,138,120, 0.8);position:relative;">
+            <div class="col-sm-6 col-sm-push-5 features-text wow fadeIn" style="margin-top:20%;padding:10%;z-index: 10;color:white;background-color: rgb(14,138,120, 0.8);position:relative;">
                <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Industry Level KYC Sharing</h2>
                <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
                <p class="big-pera">Ability to share KYC records on a permission-basis with your industry counterparts</p>
                </div>
             </div>
-            <div class="col-sm-6 col-sm-pull-12 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
+            <div class="col-sm-6 col-sm-pull-12 wow fadeIn  " data-wow-delay="1s" data-wow-duration="1s">
                <img class="kycfeatures-img" src="images/p2.jpg">
             </div>
          </div>
@@ -119,7 +119,7 @@
             <div class="col-sm-6 col-sm-push-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
                <img class="kycfeatures-img" src="images/p3.jpg">
             </div>
-            <div class="col-sm-6 col-sm-pull-5" style="margin-top:10%;padding:10%;z-index: 10;color:white;background-color: rgb(14,138,120, 0.8);position:relative;">
+            <div class="col-sm-6 col-sm-pull-5 features-text" style="margin-top:10%;padding:10%;z-index: 10;color:white;background-color: rgb(14,138,120, 0.8);position:relative;">
                <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Service Provider Solutions</h2>
                <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
                <p class="big-pera">Stand out and rise above the competition by adding the benefits of blockchain technology to your solution</p>
@@ -129,7 +129,7 @@
 
          <div class="row">
             <div id="particles-js"></div> 
-            <div class="col-sm-6 col-sm-push-5" style="margin-top:20%;padding:10%;z-index: 10;color:white;background-color: rgb(14,138,120, 0.8);position:relative;">
+            <div class="col-sm-6 col-sm-push-5 features-text" style="margin-top:20%;padding:10%;z-index: 10;color:white;background-color: rgb(14,138,120, 0.8);position:relative;">
                <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Counterparty Onboarding</h2>
                <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
                <p class="big-pera">Secure enterprise record-keeping; a cost-effective replacement to legacy systems</p>
@@ -141,92 +141,84 @@
          </div>
       </div>
       </div>
-    </section>
+   </section>
 
 
 
 
 
-      <section class=" burger dark-template-bg " id="white-paper">
-         <div class="container" style="z-index: 5">
-          
-            <div class="row text-center ">
-                <h1 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">ProximaX KYC App</h1>
-                <h5>As well as providing a platform for integration with existing third-party applications, we have built our own counterparty onboarding app ready for commercial use.</h5>
-            </div>
-            <!-- container-start -->
-            <div class="row align-item-center" style="padding:10%;">
-               <!-- row start -->
-               <div class="col-sm-6 col-sm-push-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
-                  <!-- column start -->
-                  <img src="images/gif.jpg" style="margin:10%;" alt="whitepaper">
-               </div>
-               <!-- column end -->
-               <div class="col-sm-6 col-sm-pull-6">
-                  <!-- column start -->
-                  <p>Simple and Intuitive </p>
-                  <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Easy Onboarding, Fast Adoption </h2>
-                  <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
-                  <p class="big-pera">The KYC App can be quickly customised to meet your KYC requirements. Easily add in new fields and tailor user upload requests.</p>
-              	  </div>
-               </div>
-               <!-- column end -->
-            </div>
-            <!-- row-end -->
+   <section class=" burger dark-template-bg " id="white-paper">
+      <div class="container" style="z-index: 5">
+         <div class="row text-center gifs-text">
+            <h1 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">ProximaX KYC App</h1>
+            <h5>As well as providing a platform for integration with existing third-party applications, we have built our own counterparty onboarding app ready for commercial use.</h5>
          </div>
-         <!-- conatainer-end -->
-      </section>
 
-      <section class=" burger dark-template-light-bg " id="white-paper">
-         <div class="container" style="z-index: 5">
-            <div class="row align-item-center" style="padding:10%;">
-               <div class="col-sm-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
-                  <img src="images/gif.jpg" style="margin:10%;" alt="whitepaper">
-               </div>
-               <div class="col-sm-6 ">
-                  <p>Simple and Intuitive </p>
-                  <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Easy Onboarding, Fast Adoption </h2>
-                  <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
-                  <p class="big-pera">The KYC App can be quickly customised to meet your KYC requirements. Easily add in new fields and tailor user upload requests.</p>
-                     </div>
+         <div class="row align-item-center gifrow" >
+            <div class="col-sm-6 col-sm-push-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s" style="position:relative;">
+                  <img src="images/easy.gif" alt="" class='gif'  alt="whitepaper" />
+            </div>
+            <div class="col-sm-6 col-sm-pull-6 giftext">
+               <p>Simple and Intuitive </p>
+               <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Easy Onboarding, Fast Adoption </h2>
+               <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
+               <p class="big-pera">The KYC App can be quickly customised to meet your KYC requirements. Easily add in new fields and tailor user upload requests.</p>
                </div>
             </div>
          </div>
-      </section>
+      </div>
+   </section>
+
+   <section class=" burger dark-template-light-bg " id="white-paper">
+      <div class="container" style="z-index: 5">
+         <div class="row align-item-center gifrow" >
+            <div class="col-sm-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
+               <img src="images/endtoend.gif" class='gif'  alt="whitepaper">
+            </div>
+            <div class="col-sm-6 giftext">
+               <p>Fast Processing Time </p>
+               <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">End-to-End Workflow</h2>
+               <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
+               <p class="big-pera">Collect KYC from your counterparties, perform your due diligence checks, escalate when needed, approve or reject</p>
+                  </div>
+            </div>
+         </div>
+      </div>
+   </section>
       
-         <section class=" burger dark-template-bg " id="white-paper">
-            <div class="container" style="z-index: 5">
-                <div class="row align-item-center" style="padding:10%;">
-                    <div class="col-sm-6 col-sm-push-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
-                        <img src="images/gif.jpg" style="margin:10%;" alt="whitepaper">
-                    </div>
-                    <div class="col-sm-6 col-sm-pull-6">
-                        <p>Simple and Intuitive </p>
-                        <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Easy Onboarding, Fast Adoption </h2>
-                        <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
-                        <p class="big-pera">The KYC App can be quickly customised to meet your KYC requirements. Easily add in new fields and tailor user upload requests.</p>
-                        </div>
-                    </div>
-                </div>
+   <section class=" burger dark-template-bg " id="white-paper">
+      <div class="container" style="z-index: 5">
+            <div class="row align-item-center gifrow" >
+               <div class="col-sm-6 col-sm-push-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
+                  <img src="images/regtech.gif" class='gif' alt="whitepaper">
+               </div>
+               <div class="col-sm-6 col-sm-pull-6 giftext">
+                  <p>Easy Integration</p>
+                  <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Regtech of Your Choice</h2>
+                  <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
+                  <p class="big-pera">Choose from our available list of service providers the RegTech that you need which includes screening, facial recognition, optical character recognition, credit checks, blockchain forensics analytics, and much more. </p>
+                  </div>
+               </div>
             </div>
-            </section>
+      </div>
+   </section>
 
-        <section class=" burger dark-template-light-bg " id="white-paper">
-            <div class="container" style="z-index: 5">
-                <div class="row align-item-center" style="padding:10%;">
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
-                        <img src="images/gif.jpg" style="margin:10%;" alt="whitepaper">
-                    </div>
-                    <div class="col-sm-6 ">
-                        <p>Simple and Intuitive </p>
-                        <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Easy Onboarding, Fast Adoption </h2>
-                        <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
-                        <p class="big-pera">The KYC App can be quickly customised to meet your KYC requirements. Easily add in new fields and tailor user upload requests.</p>
-                        </div>
-                    </div>
-                </div>
+   <section class=" burger dark-template-light-bg " id="white-paper">
+      <div class="container" style="z-index: 5">
+            <div class="row align-item-center gifrow" >
+               <div class="col-sm-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
+                  <img src="images/regtech.gif" class='gif' alt="whitepaper">
+               </div>
+               <div class="col-sm-6 giftext">
+                  <p>Permission-Based</p>
+                  <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Identity Management</h2>
+                  <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
+                  <p class="big-pera">Securely manage who can access your KYC records, track how long they have access for, and permanently delete your records following the expiry date of the data retention period.</p>
+                  </div>
+               </div>
             </div>
-        </section>
+      </div>
+   </section>
 
    <section class="burger dark-template-bg-gray" id="partners" style="background-image:url('images/connect.png');">
       <div class="container text-center">
@@ -256,10 +248,10 @@
       <section class="burger bg-gray" id="gdpr"  style="background-image:url('images/connect.png');">
             <div id="particles-js"></div> 
               <div class="container" style="z-index: 5">
-              <h2 class="mb5 wow fadeInUp text-center" data-wow-delay=".5s" data-wow-duration="1s">What About GDPR?</h2>
+              <h2 class="mb5 wow fadeInUp text-center" data-wow-delay=".5s" data-wow-duration="1s">What About <img class='gdprimage' src="images/GDPR.png" alt="gdpr">?</h2>
                 
-                <div class="row text-center">
-                 <p style="font-size: 1.5em;margin:1% 5% 1% 5%;">Although blockchain technology has the ability to realize the underlining objectives laid out in the GDPR (EU General Data Protection Regulation), current European law classifies encrypted and hashed data, as well as public keys, as personal data.  By default, blockchain technology stores these as an immutable record; they cannot be deleted. For this reason, we have available a GDPR-compliant hybrid architecture, which is IPFS (InterPlanetary File System) linked together with a MongoDB database to do the job.
+                <div class="row text-center gdprtext">
+                 <p>Although blockchain technology has the ability to realize the underlining objectives laid out in the GDPR (EU General Data Protection Regulation), current European law classifies encrypted and hashed data, as well as public keys, as personal data.  By default, blockchain technology stores these as an immutable record; they cannot be deleted. For this reason, we have available a GDPR-compliant hybrid architecture, which is IPFS (InterPlanetary File System) linked together with a MongoDB database to do the job.
                  </p>
                 </div>
               </div>
@@ -304,7 +296,7 @@
                <div class="col-sm-12 text-center">
                   <!-- column start -->
                   <div class="contact-form">
-                     <p class="text-center mb5 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s" style="font-size:1.5em;">Secure onboarding has never been made so cost efficient and easy. Get in touch with us now at ......!</p>
+                     <p class="text-center mb5 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s" style="font-size:1.5em;">Secure onboarding has never been made so cost efficient and easy. Get in touch with us now at <i>kycinfo@proximax.io</i></p>
                      <form id="ajax-contact" method="post" action="contact-mail.php" class="wow fadeInUp" data-wow-delay=".7s" data-wow-duration=".7s">
                         <div id="form-messages" class="notification contact"></div>
                         <div class="row">
