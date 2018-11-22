@@ -41,6 +41,11 @@
 	color:#fff;
 }
 
+.bg-lightgreen{
+  background: #06a09b;
+  color:white;
+}
+
 .bg-gradient{
   padding-top:50px;
   color:white;
@@ -65,11 +70,37 @@
   color:white;
   overflow: hidden;
 }
+
+.bannerSuite{
+  padding:20%;
+  background-image: url('/images/suitebg.jpg');
+  height:100%;
+  color:white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .featureimages{
   border-radius:50%;
   width:100%;
   height:100%;
   padding:10%;
+}
+
+.Suitefeatureimages{
+  border-radius:50%;
+  width:80%;
+  height:80%;
+  padding:10%;
+}
+
+.suiteFT{
+  font-size:1.8em !important;
+  color: #06a09b;
+}
+.suitesubFT{
+  font-size: 1em !important;
+  padding-right:15%;
+  padding-left:15%;
 }
 .subscriber-input{
   width:40%;
@@ -152,10 +183,92 @@
   background-color: rgb(56, 155, 150);
 }
 
+
+
+.suite-features{
+  /*margin: 0;padding: 0;*/
+  list-style: none;
+  margin-right:3em;
+}
+.suite-features-list{
+  background: rgb(4, 136, 136);
+  color: #fff;
+  counter-increment: myCounter;
+  margin: 0 0 10px 0;
+  padding: 0.5em;
+  position: relative;
+  top: 1em;
+  border-radius:  0em 2px 1em 1em;
+  padding-left: 2em;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+}
+.suite-features-list:before{
+  content: counter(myCounter, decimal-leading-zero);
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1em;
+  background-color:  rgb(50, 196, 183);
+  padding: 10px;
+  font-weight: bold;
+  position: absolute; 
+  top: 0;
+  left: -20px;
+  border-radius: 50%;
+  font-family: 'Lato', sans-serif;
+}
+.suite-features-list:nth-child(even){
+  background-color: rgb(56, 155, 150);
+}
+
+.suite-features{
+  /*margin: 0;padding: 0;*/
+  list-style: none;
+  margin-left:3em;
+}
+.suite-features-list2{
+  background: rgb(134, 134, 134);
+  color: #fff;
+  counter-increment: myCounter;
+  margin: 0 0 10px 0;
+  padding: 0.5em;
+  position: relative;
+  top: 1em;
+  border-radius:  0em 2px 1em 1em;
+  padding-left: 2em;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+}
+.suite-features-list2:before{
+  content: counter(myCounter, decimal-leading-zero);
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1em;
+  background-color:  rgb(73, 73, 73);
+  padding: 10px;
+  font-weight: bold;
+  position: absolute; 
+  top: 0;
+  left: -20px;
+  border-radius: 50%;
+  font-family: 'Lato', sans-serif;
+}
+.suite-features-list2:nth-child(even){
+  background-color: rgb(161, 161, 161);
+}
+
 .inner-image {
   position: absolute;
   top: 15px;
   right: 30px;
+}
+
+.fullheight{
+  margin-top: 0 !important;
+  padding-top:0 !important;
+  padding-bottom:0 !important;
 }
 
 .banner{
