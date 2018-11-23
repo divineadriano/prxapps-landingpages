@@ -56,6 +56,11 @@ app.get('/vault', function(req, res) {
 	res.render('pages/vault');
 });
 
+//FAQ
+app.get('/faq', function(req, res) {
+	res.render('pages/faq');
+});
+
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
   
