@@ -53,6 +53,8 @@
   background-image:  url("../images/wave.png"), -webkit-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
   background-image:  url("../images/wave.png"), -ms-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
   background-image: url("../images/wave.png"), linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .bannerFileit{
@@ -316,7 +318,7 @@
 }
 
 .gdprimage{
-  width:10%;
+  width:20%;
 }
 .gif{
   width:110% !important;
@@ -372,7 +374,14 @@
 }
 .parent img{
   position:absolute;
+}
 
+.parent2{
+  position: relative;
+  margin-bottom: 10% !important;
+}
+.parent2 img{
+  position:absolute;
 }
 .gif-holder
 {
@@ -413,11 +422,36 @@
   margin-top:10%;
 }
 
+.usecase-image{
+  width:90%;
+}
+
 .gdprtext{
   font-size:1em;
 }
 @media only screen and (max-width: 479px) {
 
+  .kycgiftext{
+    padding-left:0 !important;
+    margin-left:5%;
+    margin-top:5%;
+  }
+  .parent{
+    position: relative;
+    margin-bottom: 50% !important;
+    width: 70%;
+  }
+  .parent2{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 35% !important;
+    width: 70%;
+  }
+  .parentm{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 90% !important;
+  }
   .notes-parent{
     position: relative;
     margin-bottom: 55% !important;
@@ -574,6 +608,9 @@
     font-family: 'Lato', sans-serif;
   }
   .howto-image{
+    width:90%;
+  }
+  .usecase-image{
     width:90%;
   }
   .headerlogo{
