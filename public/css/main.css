@@ -37,8 +37,14 @@
 
 .bg-gray{
 	padding-top:50px;
-	background: #818181;
+	background: #98a1a1;
 	color:#fff;
+}
+
+.bg-lightgray{
+	padding-top:50px;
+	background: #fffefe;
+	color:#000;
 }
 
 .bg-lightgreen{
@@ -46,13 +52,39 @@
   color:white;
 }
 
+.bg-darkgreen{
+  background: #00807b;
+  color:white;
+}
+
 .bg-gradient{
   padding-top:50px;
   color:white;
-	background-image: url("../images/wave.png"), -moz-linear-gradient( 135deg, #2CB4AB , rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
-  background-image:  url("../images/wave.png"), -webkit-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
-  background-image:  url("../images/wave.png"), -ms-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
-  background-image: url("../images/wave.png"), linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
+	background-image: -moz-linear-gradient( 135deg, #2CB4AB , rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:   -webkit-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:  linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.imgBackground{
+  padding-top:50px;
+  color:white;
+	background-image: url("../images/kyc/p2.jpg"), -moz-linear-gradient( 135deg, #2CB4AB , rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:  url("../images/kyc/p2.jpg"), -webkit-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:  url("../images/kyc/p2.jpg"), -ms-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image: url("../images/kyc/p2.jpg"), linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.imgBackground2{
+  padding-top:50px;
+  color:white;
+	background-image: url("../images/kyc/p4.jpg"), -moz-linear-gradient( 135deg, #2CB4AB , rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:  url("../images/kyc/p4.jpg"), -webkit-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:  url("../images/kyc/p4.jpg"), -ms-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image: url("../images/kyc/p4.jpg"), linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -317,6 +349,29 @@
   width:60%;
 }
 
+.featureIMG{
+  width:10%;
+  margin-bottom:3%;
+}
+
+.featureIMG2{
+  width:15%;
+  margin-bottom:3%;
+}
+
+.featureTextHeader{
+  font-size: 3em;
+}
+
+.featureTextSub{
+  font-size: 1.8em !important;
+}
+
+.TextSub{
+  font-size: 1.8em !important;
+  max-width: 60% !important;
+
+}
 .gdprimage{
   width:20%;
 }
@@ -341,6 +396,13 @@
   margin-top:15%;
 }
 
+.kycgifTextHeader{
+  font-size: 3em;
+}
+
+.kycgifTextSub{
+  font-size: 1.5em !important;
+}
 .gifheader{
   color:#036d67;
 }
@@ -430,6 +492,21 @@
   font-size:1em;
 }
 @media only screen and (max-width: 479px) {
+
+  .kycgifTextHeader{
+    font-size: 2em;
+  }
+  
+  .kycgifTextSub{
+    font-size: 1.5em !important;
+  }
+  .featureTextHeader{
+    font-size: 2em;
+  }
+  
+  .featureTextSub{
+    font-size: 1.2em !important;
+  }
 
   .kycgiftext{
     padding-left:0 !important;
@@ -573,6 +650,7 @@
     margin-top: 1.5em !important;
     margin-bottom: 1.5em !important;
     width: 100% !important;
+    overflow: hidden;
   }
   .features-text{
     margin-top:0 !important;
@@ -1107,13 +1185,13 @@ color:#fff;  }
   border-bottom: 1px solid transparent; }
 
 .navbar.sticky-header {
-  border-color: #0E7674;
+  border-color: #00807b;
   color: #616161;
   box-shadow: 0px -12px 10px 9px rgba(0, 0, 0, 0.4); }
 
 @media (max-width: 991px) {
   .navbar-collapse {
-    background-color: #0c7670; 
+    background-color: #00807b; 
 	color: #616161;} }
 .navbar-nav > li > a {
   font-weight: 200;
