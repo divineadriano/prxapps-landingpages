@@ -1796,7 +1796,7 @@ ul.social {
   font-family: 'Lato', sans-serif;
 }
   .contact-form input {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif !important;
     height: 50px; }
   .contact-form .form-group {
     margin-bottom: 30px;
@@ -1816,7 +1816,7 @@ ul.social {
   }
 
 .contact-form input, .contact-form textarea {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
   border: 1px solid transparent;
   box-shadow: none !important;
   border-radius: 0;
