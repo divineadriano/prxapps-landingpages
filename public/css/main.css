@@ -407,6 +407,9 @@
   color:#036d67;
 }
 
+.links-section{
+  padding-left:50px;
+}
 /*NOTES*/
 .notes-parent{
   position: relative;
@@ -498,13 +501,25 @@
   margin-right: 5%;
 }
 
+.videoBackground{
+  overflow-x: hidden;
+}
 
 @media only screen and (max-width: 479px) {
+  body{
+    overflow-x: hidden;
+  }
 
+  #home{
+    overflow-x:hidden;
+  }
   .kycgifTextHeader{
     font-size: 2em;
   }
   
+  .links-section{
+    padding-left:15px;
+  }
   
   .gdprtextHeader{
     font-size:2em !important;
@@ -832,6 +847,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 button {
@@ -2463,7 +2479,8 @@ ul.template-list li {
     font-size: .75em; } }
 @media (max-width: 1024px) {
   body {
-    font-size: 13px; }
+    font-size: 13px;
+    overflow-x: hidden; }
 
   .banner {
     border: none; }
