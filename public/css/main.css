@@ -763,7 +763,6 @@
   }
   .sticky-header{
     padding-top:8% !important;
-    padding-bottom:8% !important;
     overflow: hidden;
     z-index: 10000;
   }
