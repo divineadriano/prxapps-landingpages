@@ -9,6 +9,59 @@
    <!-- Main Stylesheet CSS -->
    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
    <!--Favicon icon-->
+
+   <style>
+         /* Create two equal columns that floats next to each other */
+            .column {
+            float: left;
+            width: 50%;
+            max-height: 100% !important; /* Should be removed. Only for demonstration */
+            }
+            .columnText{
+            float: left;
+            width: 50%;
+            max-height: 100% !important;
+            padding: 10%; /* Should be removed. Only for demonstration */
+            }
+            .columnTextGDPR{
+            float: left;
+            width: 50%;
+            max-height: 100% !important;
+            padding: 5%; 
+            padding-left:10% !important;/* Should be removed. Only for demonstration */
+            }
+            .columnText2{
+            float: left;
+            width: 50%;
+            max-height: 100% !important;
+            padding: 10%;
+            margin-left: 10% !important; /* Should be removed. Only for demonstration */
+            }
+
+            .columnGif{
+            float: left;
+            width: 50%;/* Should be removed. Only for demonstration */
+            }
+            .columnGif2{
+            float: left;
+            width: 50%;
+            padding-left:10% !important;/* Should be removed. Only for demonstration */
+            }
+            .parent{
+            margin-top: 10% !important;
+            width:40% !important;
+            margin-bottom:5% !important;
+            padding-bottom:0 !important;
+            }
+
+            /* Clear floats after the columns */
+            .row1:after {
+            content: "";
+            display: table;
+            clear: both;
+            max-height:100% !important;
+            }
+   </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="82">
@@ -80,7 +133,7 @@
                      layers, provides improved security and privacy for storing and
                      managing sensitive identity records compared to traditional
                      centralised architectures, and at a substantial reduction in cost.
-                     Our platform offers the opportunity for an advanced permissionbased
+                     Our platform offers the opportunity for an advanced permission-based
                      access to identity records, enabling greater control
                      and ownership over personal data. Deployed together is the
                      encryption technology which further protects the integrity of all
@@ -107,19 +160,17 @@
    </section>
 
    <section class="burger bg-lightgreen fullheight" id="features" >
-      <div class="container" style="z-index: 5">
-         <div class="row align-item-center" >
-            <div class="col-sm-6 col-sm-push-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s" style="position:relative;">
-               <img src="images/kyc/p1.jpg" alt="" class="kycfeatures-img"  alt="whitepaper" />
+      <div class="row1">
+            <div class="columnText">
+                  <img src="images/kyc/government.png" alt="" class="featureIMG">
+                  <h2 class="wow fadeInUp featureTextHeader" data-wow-delay=".5s" data-wow-duration="1s">Government Identity Record Systems</h2>
+                  <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
+                  <p class="big-pera featureTextSub">Zero-downtime and prevent data loss, with the ability to create digital identities.</p>
+                  </div>
             </div>
-            <div class="col-sm-6 col-sm-pull-7">
-               <img src="images/kyc/government.png" alt="" class="featureIMG">
-               <h2 class="wow fadeInUp featureTextHeader" data-wow-delay=".5s" data-wow-duration="1s">Government Identity Record Systems</h2>
-               <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
-               <p class="big-pera featureTextSub">Zero-downtime and prevent data loss, with the ability to create digital identities.</p>
-               </div>
+            <div class="column">
+                  <img src="images/kyc/p1.jpg"/>
             </div>
-         </div>
       </div>
    </section>
 
@@ -138,19 +189,17 @@
    </section>
 
    <section class="burger bg-lightgreen fullheight" id="features" >
-      <div class="container" style="z-index: 5">
-         <div class="row align-item-center" >
-            <div class="col-sm-6 col-sm-push-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s" style="position:relative;">
-               <img src="images/kyc/p3.jpg" alt="" class="kycfeatures-img"  alt="whitepaper" />
+      <div class="row1">
+            <div class="columnText">
+                  <img src="images/kyc/serviceprovider.png" alt="" class="featureIMG">
+                  <h2 class="wow fadeInUp featureTextHeader" data-wow-delay=".5s" data-wow-duration="1s">Service Provider Solution</h2>
+                  <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
+                  <p class="big-pera featureTextSub">Stand out and rise above the competition by adding the benefits of blockchain technology to your solution.</p>
+                  </div> 
             </div>
-            <div class="col-sm-6 col-sm-pull-7">
-               <img src="images/kyc/serviceprovider.png" alt="" class="featureIMG">
-               <h2 class="wow fadeInUp featureTextHeader" data-wow-delay=".5s" data-wow-duration="1s">Service Provider Solution</h2>
-               <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
-               <p class="big-pera featureTextSub">Stand out and rise above the competition by adding the benefits of blockchain technology to your solution.</p>
-               </div> 
+            <div class="column">
+                  <img src="images/kyc/p3.jpg"/>
             </div>
-         </div>
       </div>
    </section>
 
@@ -174,38 +223,35 @@
          <h1 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">ProximaX KYC App</h1>
          <p class="wow fadeInUp">As well as providing a platform for integration with existing third-party applications, we have built our own counterparty onboarding app ready for commercial use.</p>
       </div>
-      <div class="container" >
-         <div class="row align-item-center" >
-            <div class="col-sm-6 col-sm-pull-1 wow fadeIn parent" data-wow-delay="1s" data-wow-duration="1s">
-               <img src="images/laptop.png" class='gif-holder' alt="whitepaper">
-               <img src="images/easy.gif" class='gif-inside' alt="whitepaper">
+
+      <div class="row1">
+            <div class="columnText">
+                  <p>Simple and Intuitive </p>
+                  <h2 class="wow fadeInUp kycgifTextHeader" data-wow-delay=".5s" data-wow-duration="1s">Easy Onboarding, Fast Adoption </h2>
+                  <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
+                  <p class="big-pera kycgifTextSub">The KYC App can be quickly customised to meet your KYC requirements. Easily add in new fields and tailor user upload requests.</p>
+                  </div>
             </div>
-            <div class="col-sm-6 col-sm-push-2 kycgiftext">
-               <p>Simple and Intuitive </p>
-               <h2 class="wow fadeInUp kycgifTextHeader" data-wow-delay=".5s" data-wow-duration="1s">Easy Onboarding, Fast Adoption </h2>
-               <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
-               <p class="big-pera kycgifTextSub">The KYC App can be quickly customised to meet your KYC requirements. Easily add in new fields and tailor user upload requests.</p>
-               </div>
+            <div class="columnGif parent">
+                  <img src="images/laptop.png" class='gif-holder' alt="whitepaper">
+                  <img src="images/easy.gif" class='gif-inside' alt="whitepaper">
             </div>
-         </div>
       </div>
    </section>
 
    <section class=" burger bg-white deviceRow"  style="background-image:url('images/connect2.png');">
-      <div class="container" >
-         <div class="row align-item-center" >
-            <div class="col-sm-6 kycgiftext">
-               <p>Fast Processing Time</p>
-               <h2 class="wow fadeInUp kycgifTextHeader" data-wow-delay=".5s" data-wow-duration="1s">End To End Workflow</h2>
-               <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
-               <p class="big-pera kycgifTextSub">Collect KYC from your counterparties, perform your due diligence checks, escalate when needed, approve or reject.</p>
-               </div>
+      <div class="row1">
+            <div class="columnGif2 parent">
+                  <img src="images/laptop.png" class='gif-holder' alt="whitepaper">
+                  <img src="images/endtoend.gif" class='gif-inside' alt="whitepaper">
             </div>
-            <div class="col-sm-6  wow fadeIn parent2" data-wow-delay="1s" data-wow-duration="1s">
-               <img src="images/laptop.png" class='gif-holder' alt="whitepaper">
-               <img src="images/endtoend.gif" class='gif-inside' alt="whitepaper">
+            <div class="columnText2">
+                  <p>Fast Processing Time</p>
+                  <h2 class="wow fadeInUp kycgifTextHeader" data-wow-delay=".5s" data-wow-duration="1s">End To End Workflow</h2>
+                  <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
+                  <p class="big-pera kycgifTextSub">Collect KYC from your counterparties, perform your due diligence checks, escalate when needed, approve or reject.</p>
+                  </div>
             </div>
-         </div>
       </div>
    </section>
 
@@ -277,19 +323,17 @@
 
 
    <section class="burger bg-lightgreen fullheight" id="gdpr" >
-      <div class="container" style="z-index: 5">
-         <div class="row align-item-center" >
-            <div class="col-sm-6 col-sm-push-6 wow fadeIn" data-wow-delay="1s" data-wow-duration="1s" style="position:relative;">
-               <img src="images/gdpr.jpg" alt="" class="kycfeatures-img"  alt="whitepaper" />
+      <div class="row1">
+            <div class="columnTextGDPR wow fadeIn">
+                  <h2 class="wow fadeInUp gdprtextHeader" data-wow-delay=".5s" data-wow-duration="1s">What About <img class='gdprimage' src="images/GDPR.png" alt="gdpr">?</h2>
+                  <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
+                        <p class="gdprtext">Although blockchain technology has the ability to realise the underlining objectives laid out in the GDPR (EU General Data Protection Regulation), current European law classifies encrypted and hashed data, as well as public keys, as personal data. By default, blockchain technology stores these as an immutable record; they cannot be deleted. For this reason, we have available a GDPR-compliant hybrid architecture, which is a distributed file management system linked together with a MongoDB database to do the job.
+                        </p>
+                  </div>
             </div>
-            <div class="col-sm-6 col-sm-pull-6">
-               <h2 class="wow fadeInUp gdprtextHeader" data-wow-delay=".5s" data-wow-duration="1s">What About <img class='gdprimage' src="images/GDPR.png" alt="gdpr">?</h2>
-               <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
-                  <p class="gdprtext">Although blockchain technology has the ability to realise the underlining objectives laid out in the GDPR (EU General Data Protection Regulation), current European law classifies encrypted and hashed data, as well as public keys, as personal data. By default, blockchain technology stores these as an immutable record; they cannot be deleted. For this reason, we have available a GDPR-compliant hybrid architecture, which is a distributed file management system linked together with a MongoDB database to do the job.
-                  </p>
-               </div>
+            <div class="column">
+                  <img src="images/gdpr.jpg"/>
             </div>
-         </div>
       </div>
    </section>
 
