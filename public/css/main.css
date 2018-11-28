@@ -801,6 +801,9 @@ max-height:100% !important;
   }
 }
 @media only screen and (max-width: 479px) {
+  h1{
+    font-size:2.5em !important;
+  }
   .deviceRowSubText{
     font-size:1.5em;
   }
@@ -810,10 +813,6 @@ max-height:100% !important;
   padding:3% !important;
   margin-top:0 !important;
   margin-bottom: 0 !important;
-  }
-
-  .burger{
-    padding:10px !important;
   }
 
   .columnRight {
@@ -1004,7 +1003,7 @@ max-height:100% !important;
     font-size:0.8em;
   }
   .mb5{
-    margin-bottom: 10px !important;
+    margin-bottom: 2% !important;
   }
   .gifrow{
     margin-top:0.5em;
@@ -1095,9 +1094,7 @@ max-height:100% !important;
 
 @media only screen and (max-width: 1024px) {
 
-  .burger{
-    padding:3% !important;
-  }
+  
   .kycgifBeforeText{
     font-size:1.5em !important;
   }
