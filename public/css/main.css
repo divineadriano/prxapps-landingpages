@@ -384,7 +384,7 @@
 }
 
 .deviceRow{
-  padding-bottom: 20% !important;
+  padding-bottom: 20%;
 }
 
 .notes-deviceRow{
@@ -526,8 +526,7 @@ float: left;
 width: 50%;
 max-height: 100% !important;
 padding: 10%;
-margin-left: 10% !important; 
-margin-top:5%;
+margin-left: 15% !important; 
 }
 
 .columnTextm{
@@ -554,12 +553,13 @@ padding-left:10% !important;
 float: left;
 width: 50%;
 padding-left:20% !important;
+padding-bottom:20% !important;
 }
 
 .parent{
-margin-top: 10% !important;
+margin-top: 5% !important;
 width:35% !important;
-margin-bottom:5% !important;
+margin-bottom:15% !important;
 }
 
 
@@ -587,12 +587,6 @@ max-height:100% !important;
     width:87%;
     z-index: 2;
   }
-  .parentm{
-    margin-bottom:30% !important;
-  }
-}
-
-@media only screen and (max-width: 1280px){
   .kycgiftext{
     padding-right: 10em !important;
   }
@@ -608,8 +602,58 @@ max-height:100% !important;
     width:87%;
     z-index: 2;
   }
-  .parentm{
-    margin-bottom:30% !important;
+
+  .deviceRow{
+    padding-bottom: 5% !important;
+  }
+  .columnText{
+  float: left;
+  width: 50%;
+  max-height: 100% !important;
+  padding: 5%;
+  margin-top: 3%;
+  }
+  .columnText2{
+  float: left;
+  width: 50%;
+  max-height: 100% !important;
+  padding: 5%;
+  margin-left: 10% !important; 
+  margin-top: 5% !important;
+  }
+  
+  .columnTextm{
+  float: left;
+  width: 50%;
+  max-height: 100% !important;
+  padding: 5%;
+  margin-left: 5% !important;
+  margin-top:5%;
+  }
+  
+  .columnGif{
+  float: left;
+  width: 60% !important;
+  margin-right:10% !important;
+  padding-top:5% !important;
+  }
+  .columnGif2{
+  float: left;
+  width: 50%;
+  padding-left:5% !important;
+  padding-bottom:10% !important;
+  }
+  
+  .columnGifm{
+  float: left;
+  width: 50%;
+  padding-left:20% !important;
+  }
+  
+  .parent{
+  margin-top: 3% !important;
+  width:40% !important;
+  margin-bottom:20% !important;
   }
 }
 @media only screen and (max-width: 479px) {
@@ -683,6 +727,166 @@ max-height:100% !important;
   }
 
     /*END OF FOR COLUMNS*/
+}
+
+@media only screen and (max-width: 1280px){
+  
+  .kycgiftext{
+    padding-right: 10em !important;
+  }
+  .gif-holder
+  {
+    width:115%;
+    z-index: 1;
+  }
+  .gif-inside
+  {
+    margin-top:3%;
+    margin-left:14%;
+    width:87%;
+    z-index: 2;
+  }
+
+  .deviceRow{
+    padding-bottom: 5% !important;
+  }
+  .columnText{
+  float: left;
+  width: 50%;
+  max-height: 100% !important;
+  padding: 5%;
+  margin-top:10%;
+  }
+  .columnText2{
+  float: left;
+  width: 50%;
+  max-height: 100% !important;
+  padding: 5%;
+  margin-left: 10% !important; 
+  margin-top:10%;
+  }
+  
+  .columnTextm{
+  float: left;
+  width: 50%;
+  max-height: 100% !important;
+  padding: 5%;
+  margin-left: 5% !important;
+  margin-top:5%;
+  }
+  
+  .columnGif{
+  float: left;
+  width: 60% !important;
+  margin-right:10% !important;
+  padding-top:5% !important;
+  }
+  .columnGif2{
+  float: left;
+  width: 50%;
+  padding-left:5% !important;
+  padding-bottom:10% !important;
+  }
+  
+  .columnGifm{
+  float: left;
+  width: 50%;
+  padding-left:20% !important;
+  }
+  
+  .parent{
+  margin-top: 10% !important;
+  width:40% !important;
+  margin-bottom:20% !important;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .deviceRowSubText{
+    font-size:1.5em;
+  }
+  /*FOR COLUMNS*/
+  .column {
+  width: 100% !important;
+  padding:3% !important;
+  margin-top:0 !important;
+  margin-bottom: 0 !important;
+  }
+
+  .burger{
+    padding:10px !important;
+  }
+
+  .columnRight {
+  margin-left:5% !important;
+  width: 90% !important;
+  max-height: 100% !important; 
+  margin-bottom: 0 !important;
+  }
+  .column img{
+  width:100% !important;
+  }
+  .columnText{
+  width: 100% !important;
+  padding:5% !important;
+  }
+  .columnTextGDPR{
+  width: 100% !important;
+  padding: 3%; 
+  }
+  .columnText2{
+  width: 95% !important;
+  padding:3% !important;
+  margin-top:15%;
+  margin-left:3% !important;
+  margin-right:5% !important;
+  }
+  
+  .columnTextm{
+  width: 100% !important;
+  padding: 3% !important;
+  margin-top:5% ;
+  }
+  
+  .columnGif{
+  width: 100% !important;
+  padding:5% !important;
+  }
+
+  .columnGif img{
+  margin-bottom: 15% !important;
+  padding-bottom: 15% !important;
+  }
+  .columnGif2{
+  width: 100%;
+  padding:5% !important;
+  padding-bottom:40% !important;
+  }
+  
+  .columnGifm{
+  width: 100% !important;
+  padding:5% !important;
+  margin-bottom:30% !important;
+  }
+  
+  .parent{
+  margin-top: 5% !important;
+  margin-bottom: 20% !important;
+  width:80% !important;
+  padding-bottom: 40% !important;
+  }
+  
+  .mobil{
+    padding-bottom:40%;
+  }
+  
+  .row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  max-height:100% !important;
+  }
+
+    /*END OF FOR COLUMNS*/
 
 
 
@@ -709,7 +913,7 @@ max-height:100% !important;
     padding-right: 10%;
   }
   .kycgifTextSub{
-    font-size: 1.5em !important;
+    font-size: 1.2em !important;
   }
   .featureTextHeader{
     font-size: 2em;
@@ -891,6 +1095,9 @@ max-height:100% !important;
 
 @media only screen and (max-width: 1024px) {
 
+  .burger{
+    padding:3% !important;
+  }
   .kycgifBeforeText{
     font-size:1.5em !important;
   }
@@ -905,7 +1112,7 @@ max-height:100% !important;
     padding-right: 10%;
   }
   .kycgifTextSub{
-    font-size: 1.8em !important;
+    font-size: 1.5em !important;
   }
   .featureTextHeader{
     font-size: 2.5em !important;
@@ -981,10 +1188,13 @@ max-height:100% !important;
   
   .parent{
   margin-top: 5% !important;
-  padding-bottom: 10% !important;
+  padding-bottom: 30% !important;
   width:80% !important;
   }
   
+  .ipad{
+    padding-bottom:5% !important;
+  }
   
   .row1:after {
   content: "";
