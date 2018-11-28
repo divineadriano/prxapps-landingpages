@@ -435,17 +435,8 @@
 /*KYC GIF*/
 .parent{
   position: relative;
-  margin-bottom: 10% !important;
 }
 .parent img{
-  position:absolute;
-}
-
-.parent2{
-  position: relative;
-  margin-bottom: 10% !important;
-}
-.parent2 img{
   position:absolute;
 }
 .gif-holder
@@ -506,6 +497,80 @@
 }
 
 
+.column {
+float: left;
+width: 50%;
+max-height: 100% !important; 
+}
+.columnRight {
+float: left;
+margin-left:60% !important;
+width: 80% !important;
+max-height: 100% !important; 
+}
+.columnText{
+float: left;
+width: 50%;
+max-height: 100% !important;
+padding: 10%;
+}
+.columnTextGDPR{
+float: left;
+width: 50%;
+max-height: 100% !important;
+padding: 5%; 
+padding-left:10% !important;
+}
+.columnText2{
+float: left;
+width: 50%;
+max-height: 100% !important;
+padding: 10%;
+margin-left: 10% !important; 
+margin-top:5%;
+}
+
+.columnTextm{
+float: left;
+width: 50%;
+max-height: 100% !important;
+padding: 10%;
+margin-left: 10% !important;
+margin-top:5%;
+}
+
+.columnGif{
+float: left;
+width: 50%;
+margin-right:10% !important;
+}
+.columnGif2{
+float: left;
+width: 50%;
+padding-left:10% !important;
+}
+
+.columnGifm{
+float: left;
+width: 50%;
+padding-left:20% !important;
+}
+
+.parent{
+margin-top: 10% !important;
+width:35% !important;
+margin-bottom:5% !important;
+}
+
+
+.row1:after {
+content: "";
+display: table;
+clear: both;
+max-height:100% !important;
+}
+
+
 @media only screen and (max-width: 1440px){
   .kycgiftext{
     padding-right: 10em !important;
@@ -548,6 +613,76 @@
   }
 }
 @media only screen and (max-width: 479px) {
+  /*FOR COLUMNS*/
+  .column {
+  width: 100% !important;
+  padding:3% !important;
+  margin-top:0 !important;
+  }
+
+  .columnRight {
+  margin-left:5% !important;
+  width: 90% !important;
+  max-height: 100% !important; 
+  }
+  .column img{
+  width:100% !important;
+  }
+  .columnText{
+  width: 100% !important;
+  padding:5% !important;
+  }
+  .columnTextGDPR{
+  width: 100% !important;
+  padding: 3%; 
+  }
+  .columnText2{
+  width: 95% !important;
+  padding:3% !important;
+  margin-top:15%;
+  margin-left:3% !important;
+  margin-right:5% !important;
+  }
+  
+  .columnTextm{
+  width: 100% !important;
+  padding: 3% !important;
+  margin-top:5% ;
+  }
+  
+  .columnGif{
+  width: 100% !important;
+  padding:5% !important;
+  }
+  .columnGif2{
+  width: 100%;
+  padding:5% !important;
+  }
+  
+  .columnGifm{
+  width: 100% !important;
+  padding:5% !important;
+  margin-bottom:30% !important;
+  }
+  
+  .parent{
+  margin-top: 5% !important;
+  padding-bottom: 40% !important;
+  width:80% !important;
+  }
+  
+  
+  .row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  max-height:100% !important;
+  }
+
+    /*END OF FOR COLUMNS*/
+
+
+
   body{
     overflow-x: hidden;
   }
@@ -585,22 +720,6 @@
     padding-left:0 !important;
     margin-left:5%;
     margin-top:5%;
-  }
-  .parent{
-    position: relative;
-    margin-bottom: 50% !important;
-    width: 70%;
-  }
-  .parent2{
-    position: relative;
-    margin-top: 5%;
-    margin-bottom: 35% !important;
-    width: 70%;
-  }
-  .parentm{
-    position: relative;
-    margin-top: 5%;
-    margin-bottom: 90% !important;
   }
   .notes-parent{
     position: relative;
@@ -765,6 +884,68 @@
 }
 
 @media only screen and (max-width: 1024px) {
+
+  /*FOR COLUMNS*/
+  .column {
+    width: 100% !important;
+    padding:3% !important;
+    margin-top:0 !important;
+    }
+    .column img{
+    width:100% !important;
+    }
+    .columnText{
+    width: 100% !important;
+    padding:5% !important;
+    }
+    .columnTextGDPR{
+    width: 100% !important;
+    padding: 3%; 
+    }
+    .columnText2{
+    width: 95% !important;
+    padding:3% !important;
+    margin-top:15%;
+    margin-left:3% !important;
+    margin-right:5% !important;
+    }
+    
+    .columnTextm{
+    width: 100% !important;
+    padding: 3% !important;
+    margin-top:5% ;
+    }
+    
+    .columnGif{
+    width: 100% !important;
+    padding:5% !important;
+    }
+    .columnGif2{
+    width: 100%;
+    padding:5% !important;
+    }
+    
+    .columnGifm{
+    width: 100% !important;
+    padding:5% !important;
+    margin-bottom:30% !important;
+    }
+    
+    .parent{
+    margin-top: 5% !important;
+    padding-bottom: 40% !important;
+    width:80% !important;
+    }
+    
+    
+    .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+    max-height:100% !important;
+    }
+  
+      /*END OF FOR COLUMNS*/
 
   .giftextnotes{
     padding-left:5% !important;
