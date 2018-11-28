@@ -613,6 +613,9 @@ max-height:100% !important;
   }
 }
 @media only screen and (max-width: 479px) {
+  .deviceRowSubText{
+    font-size:1.5em;
+  }
   /*FOR COLUMNS*/
   .column {
   width: 100% !important;
@@ -881,71 +884,117 @@ max-height:100% !important;
   .headerlogo{
     min-width:70%;
   }
+  .deviceRowSubText{
+    font-size:1.5em !important;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
 
+  .kycgifBeforeText{
+    font-size:1.5em !important;
+  }
+  .deviceRowSubText{
+    font-size:2em;
+  }
+  .gdprtextHeader{
+    font-size:2em !important;
+  }
+  .gdprtext{
+    font-size:1.2em;
+    padding-right: 10%;
+  }
+  .kycgifTextSub{
+    font-size: 1.8em !important;
+  }
+  .featureTextHeader{
+    font-size: 2.5em !important;
+  }
+  
+  .featureTextSub{
+    font-size: 1.5em !important;
+  }
+  .headerText{
+    margin-top:1em;
+    font-size: 1.3em !important;
+  }
+  .headersubText{
+    font-weight:normal;
+    font-size:0.8em;
+  }
   /*FOR COLUMNS*/
   .column {
-    width: 100% !important;
-    padding:3% !important;
-    margin-top:0 !important;
-    }
-    .column img{
-    width:100% !important;
-    }
-    .columnText{
-    width: 100% !important;
-    padding:5% !important;
-    }
-    .columnTextGDPR{
-    width: 100% !important;
-    padding: 3%; 
-    }
-    .columnText2{
-    width: 95% !important;
-    padding:3% !important;
-    margin-top:15%;
-    margin-left:3% !important;
-    margin-right:5% !important;
-    }
-    
-    .columnTextm{
-    width: 100% !important;
-    padding: 3% !important;
-    margin-top:5% ;
-    }
-    
-    .columnGif{
-    width: 100% !important;
-    padding:5% !important;
-    }
-    .columnGif2{
-    width: 100%;
-    padding:5% !important;
-    }
-    
-    .columnGifm{
-    width: 100% !important;
-    padding:5% !important;
-    margin-bottom:30% !important;
-    }
-    
-    .parent{
-    margin-top: 5% !important;
-    padding-bottom: 40% !important;
-    width:80% !important;
-    }
-    
-    
-    .row1:after {
-    content: "";
-    display: table;
-    clear: both;
-    max-height:100% !important;
-    }
+  width: 100% !important;
+  padding:3% !important;
+  margin-top:0 !important;
+  }
+
+  .columnRight {
+  margin-left:5% !important;
+  width: 90% !important;
+  max-height: 100% !important; 
+  }
+  .column img{
+  width:100% !important;
+  }
+  .columnText{
+  width: 100% !important;
+  padding:5% !important;
+  }
+  .columnTextGDPR{
+  width: 100% !important;
+  padding: 3%; 
+  }
+  .columnText2{
+  width: 100% !important;
+  padding:3% !important;
+  margin-top:5%;
+  margin-left:3% !important;
+  margin-right:5% !important;
+  }
+  
+  .columnTextm{
+  width: 60% !important;
+  padding: 3% !important;
+  margin-top:5% ;
+  }
+  
+  .columnGif{
+  width: 100% !important;
+  padding:5% !important;
+  margin-bottom: 20% !important;
+  margin-top:5% !important;
+  }
+  .columnGif2{
+  width: 100%;
+  padding:5% !important;
+  margin-bottom: 45% !important;
+  margin-top:5% !important;
+  }
+  
+  .columnGifm{
+  width: 100% !important;
+  padding:5% !important;
+  margin-bottom:70% !important;
+  margin-top:5% !important;
+  }
+  
+  .parent{
+  margin-top: 5% !important;
+  padding-bottom: 10% !important;
+  width:80% !important;
+  }
+  
+  
+  .row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  max-height:100% !important;
+  }
   
       /*END OF FOR COLUMNS*/
+  
 
   .giftextnotes{
     padding-left:5% !important;
