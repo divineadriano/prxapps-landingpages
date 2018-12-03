@@ -61,6 +61,22 @@ app.get('/faq', function(req, res) {
 	res.render('pages/faq');
 });
 
+//Terms of Use
+app.get('/tou', function(req, res) {
+	res.render('pages/tou');
+});
+
+//Privacy Policy
+app.get('/privacy', function(req, res) {
+	res.render('pages/privacy');
+});
+
+//Cookie Policy
+app.get('/cookie', function(req, res) {
+	res.render('pages/cookie');
+});
+
+
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
   
