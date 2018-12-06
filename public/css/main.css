@@ -99,7 +99,7 @@
 
 .bannerNotes{
   padding:10%;
-  background-image: url('/images/background_Home.jpg');
+  background-image: url('/images/notes/background_Home.jpg');
   height:100%;
   color:white;
   overflow: hidden;
@@ -1002,10 +1002,6 @@ max-height:100% !important;
   .notes-parent img{
     position:absolute;
   }
-  .notes-gif-holder
-  {
-    display:none;
-  }
   .notes-gif-inside
   {
     margin-left:5% !important;
@@ -1289,17 +1285,7 @@ max-height:100% !important;
   .notes-parent img{
     position:absolute;
   }
-  .notes-gif-holder
-  {
-    display:none;
-  }
-  .notes-gif-inside
-  {
-    margin-left:5% !important;
-    margin-right:5%;
-    width:80%;
-    z-index: 2;
-  }
+  
 
   .banner-header{
     font-size: 2.5em !important;

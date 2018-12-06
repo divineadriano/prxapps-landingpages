@@ -39,98 +39,96 @@
       <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
 
    </head>
-   <body data-spy="scroll" data-target=".navbar" data-offset="82" onLoad="initializeFirebase()">
-      <!-- LOADER -->
-      <div class="site-loader">
-         <div class="loader-dots">
-            <div class="circle circle-1"></div>
-            <div class="circle circle-2"></div>
+<body data-spy="scroll" data-target=".navbar" data-offset="82" onLoad="initializeFirebase()">
+   <!-- LOADER -->
+   <div class="site-loader">
+      <div class="loader-dots">
+         <div class="circle circle-1"></div>
+         <div class="circle circle-2"></div>
+      </div>
+   </div>
+
+   <!-- NAVBAR -->
+   <nav class="navbar wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1s" id="myNavbar">
+      <div class="container">
+         <div class="navbar-header ">
+            <button data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar top"></span>
+               <span class="icon-bar mid"></span>
+               <span class="icon-bar btm"></span>
+            </button>
+            <a href="#hero" class="site-logo navbar-brand"><img src="/images/logos/notesheaderlogo.png" class="headerlogo"></a>
+         </div>
+         <div id="navbarCollapse" class="collapse navbar-collapse ">
+            <ul class="nav navbar-nav navbar-right " id="nav_bar">
+               <li><a href="#about">ABOUT</a></li>
+               <li><a href="#features">FEATURES</a></li>
+               <li><a href="#contact">SUBSCRIBE</a></li>
+            </ul>
          </div>
       </div>
+   </nav>
 
-
-      <nav class="navbar wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1s" id="myNavbar">
+   <!-- ABOUT -->  
+   <section class="" id="about">
+      <div class="bannerNotes burger  align-item-center parallax">
+            <div id="particles-js"></div> 
          <div class="container">
-            <div class="navbar-header ">
-               <button data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar top"></span>
-                  <span class="icon-bar mid"></span>
-                  <span class="icon-bar btm"></span>
-               </button>
-               <a href="#hero" class="site-logo navbar-brand"><img src="/images/logos/notesheaderlogo.png" class="headerlogo"></a>
-            </div>
-            <div id="navbarCollapse" class="collapse navbar-collapse ">
-               <ul class="nav navbar-nav navbar-right " id="nav_bar">
-                  <li><a href="#about">ABOUT</a></li>
-                  <li><a href="#features">FEATURES</a></li>
-                  <li><a href="#contact">SUBSCRIBE</a></li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-      <section class="" id="about">
-
-         <div class="bannerNotes burger  align-item-center parallax">
-             <div id="particles-js"></div> 
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-12 big-pera wow fadeInUp  text-center">
-                     <div >
-                        <img class="img-banner-logo wow fadeInUp fileitlogo" data-wow-delay=".2s" data-wow-duration="1s" width="80%" style="margin-top:15%;" src="/images/logos/noteslogo.png"/>
-                        <h2 class="headerText" data-wow-delay=".3s" data-wow-duration="1s">
-                           Cross-Platform Note Taking Application
-                        </h2>
-                        <p >A Cross platform form-based framework backed by decentralized technologies such as Catapult and BigChainDB.  Providing a tool to build simple forms to complex and complicated workflow processes, utilising the Catapult's Multi-Aggregate Signatures. Supports Linux, Microsoft Office and MacOS</p>
-                        <div class="mt3 banner-btn-group wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
-                           <a href="#token-distribution" class="redirect-btn btn-white " style="margin-bottom: 20%;">LEARN MORE</a>    
-                        </div>
+            <div class="row">
+               <div class="col-lg-12 big-pera wow fadeInUp  text-center">
+                  <div >
+                     <img class="img-banner-logo wow fadeInUp fileitlogo" data-wow-delay=".2s" data-wow-duration="1s" width="80%" style="margin-top:15%;" src="/images/logos/noteslogo.png"/>
+                     <h2 class="headerText" data-wow-delay=".3s" data-wow-duration="1s">
+                        Cross-Platform Note Taking Application
+                     </h2>
+                     <p class='headersubText'>A Cross platform form-based framework backed by decentralized technologies such as Catapult and BigChainDB.  Providing a tool to build simple forms to complex and complicated workflow processes, utilising the Catapult's Multi-Aggregate Signatures. Supports Linux, Microsoft Office and MacOS</p>
+                     <div class="mt3 banner-btn-group wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
+                        <a href="#features" class="redirect-btn btn-white " style="margin-bottom: 20%;">LEARN MORE</a>    
                      </div>
                   </div>
+               </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- FEATURES -->
+   <section id="features">
+      <div class="burger dark-template-light-bg">
+      <div class="container text-center">
+         <h2>ProximaX Notes Features</h2>
+         <div class="row text-center">
+            <br><br>
+            <div class="col-lg-4 text-center wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
+                  <img class="featureimages" src="images/fileit/keep.jpg" id="feature2"  onmouseout="document.getElementById('feature2').src='images/fileit/keep.jpg';" onmouseover="document.getElementById('feature2').src='images/fileit/keep.gif';" width="60%" height="60%;"/>
+                  <h3>Encrypt and Upload your notes on ProximaX Blockchain Storage</h3>   
+               </div>
+               <div class="col-lg-4 text-center wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
+                  <img class="featureimages" src="images/fileit/notepad.jpg" id="feature3" onmouseout="document.getElementById('feature3').src='images/fileit/notepad.jpg';" onmouseover="document.getElementById('feature3').src='images/fileit/notepad.gif';" width="60%" height="60%;"/>
+                  <h3>Keep Your Notes Private</h3>
+               </div>
+            <div class="col-lg-4 text-center wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
+                  <img class="featureimages" src="images/fileit/blockchain.jpg" id="feature1" onmouseout="document.getElementById('feature1').src='images/fileit/blockchain.jpg';" onmouseover="document.getElementById('feature1').src='images/fileit/blockchain4.gif';" width="60%" height="60%;"/>
+                  <h3>Secure your personal notes with blockchain encryption</h3>
             </div>
          </div>
-      </section>
+      </div>
+      </div>
+   </section>
 
 
-      <section id="features">
-        <div class="burger dark-template-light-bg">
-        <div class="container text-center">
-            <h2>ProximaX Notes Features</h2>
-            <div class="row text-center">
-               <br><br>
-               <div class="col-lg-4 text-center wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
-                     <img class="featureimages" src="images/fileit/keep.jpg" id="feature2"  onmouseout="document.getElementById('feature2').src='images/fileit/keep.jpg';" onmouseover="document.getElementById('feature2').src='images/fileit/keep.gif';" width="60%" height="60%;"/>
-                     <h3>Encrypt and Upload your notes on ProximaX Blockchain Storage</h3>   
-                </div>
-                <div class="col-lg-4 text-center wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
-                     <img class="featureimages" src="images/fileit/notepad.jpg" id="feature3" onmouseout="document.getElementById('feature3').src='images/fileit/notepad.jpg';" onmouseover="document.getElementById('feature3').src='images/fileit/notepad.gif';" width="60%" height="60%;"/>
-                     <h3>Keep Your Notes Private</h3>
-                </div>
-               <div class="col-lg-4 text-center wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
-                    <img class="featureimages" src="images/fileit/blockchain.jpg" id="feature1" onmouseout="document.getElementById('feature1').src='images/fileit/blockchain.jpg';" onmouseover="document.getElementById('feature1').src='images/fileit/blockchain4.gif';" width="60%" height="60%;"/>
-                    <h3>Secure your personal notes with blockchain encryption</h3>
-               </div>
+   <section class=" burger dark-template-bg-gray wow fadeInRight " style="background-image:url('images/connect.png');">
+      <div class="row1 firstRow">
+         <div class="columnText">
+            <h2 class="wow fadeInUp gifheader" data-wow-delay=".5s" data-wow-duration="1s">A more secured way of note-taking</h2>
+            <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
+            <p class="big-pera">ProxiNote is an application designed for note taking, organizing, tasks lists, and archiving. ProximaX Notes is a cross platform that supports Linux, Microsoft Windows and MacOS. It utilizes ProximaX's blockchain storage making your notes more secured and immutable. It is also backed by decentralized technologies such as Catapult and BigChainDB.
+               </p>
             </div>
-        </div>
-        </div>
-      </section>
-
-
-
-   <section class=" burger dark-template-bg-gray wow fadeInRight notes-deviceRow" style="background-image:url('images/connect.png');">
-      <div class="container" >
-         <div class="row">
-            <div class="col-sm-6 col-sm-push-6 wow fadeIn notes-parent" data-wow-delay="1s" data-wow-duration="1s" style="position:relative;">
-               <img src="images/laptop2.png" class='notes-gif-holder' alt="whitepaper">
-               <img src="images/notes.gif" alt="" class='notes-gif-inside'  alt="whitepaper" />
-            </div>
-            <div class="col-sm-6 col-sm-pull-6 giftextnotes">
-               <h2 class="wow fadeInUp gifheader" data-wow-delay=".5s" data-wow-duration="1s">A more secured way of note-taking</h2>
-               <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
-               <p class="big-pera">ProxiNote is an application designed for note taking, organizing, tasks lists, and archiving. Proxiform is a cross platform that supports Linux, Microsoft Windows and MacOS. It utilizes ProximaX's blockchain storage making your notes more secured and immutable. It is also backed by decentralized technologies such as Catapult and BigChainDB.
-                  </p>
-               </div>
-            </div>
+         </div>
+         <div class="columnGif parent mobil" data-wow-delay="1s" data-wow-duration="1s" >
+            <img src="images/laptop2.png" class='gif-holder' >
+            <img src="images/notes.gif" alt="" class='gif-inside'  />
          </div>
       </div>
    </section>
