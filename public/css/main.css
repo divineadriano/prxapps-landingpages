@@ -115,7 +115,7 @@
 }
 
 .suitebannerlogo{
-  width: 80%;
+  width: 80% !important;
   margin-top: 15%;
   text-shadow:10px 10px 10px #ffffff;
 }
@@ -517,6 +517,7 @@ width: 50%;
 max-height: 100% !important;
 padding: 10%;
 }
+
 .columnTextGDPR{
 float: left;
 width: 50%;
@@ -524,7 +525,25 @@ max-height: 100% !important;
 padding: 5%; 
 padding-left:10% !important;
 }
+
+.columnTextSuite{
+  margin-top: 5%;
+  float: left;
+  width: 50%;
+  max-height: 100% !important;
+  padding: 2%; 
+  padding-left:10% !important;
+}
+
 .columnText2{
+float: left;
+width: 50%;
+max-height: 100% !important;
+padding: 10%;
+margin-left: 15% !important; 
+}
+
+.columnSuiteText2{
 float: left;
 width: 50%;
 max-height: 100% !important;
@@ -552,6 +571,10 @@ width: 50%;
 padding-left:10% !important;
 }
 
+.suiteGIF{
+  padding-top:5%;
+}
+
 .columnGifm{
 float: left;
 width: 50%;
@@ -572,6 +595,7 @@ display: table;
 clear: both;
 max-height:100% !important;
 }
+
 
 
 @media only screen and (max-width: 1440px){
@@ -623,6 +647,15 @@ max-height:100% !important;
   padding: 5%;
   margin-left: 10% !important; 
   margin-top: 5% !important;
+  }
+
+  .columnSuiteText2{
+    float: left;
+    width: 50%;
+    max-height: 100% !important;
+    padding: 5%;
+    margin-left: 10% !important; 
+    margin-top: 5% !important;
   }
   
   .columnTextm{
@@ -693,6 +726,14 @@ max-height:100% !important;
   margin-top:15%;
   margin-left:3% !important;
   margin-right:5% !important;
+  }
+
+  .columnSuiteText2{
+    width: 95% !important;
+    padding:3% !important;
+    margin-top:15%;
+    margin-left:3% !important;
+    margin-right:5% !important;
   }
   
   .columnTextm{
@@ -769,6 +810,15 @@ max-height:100% !important;
   margin-left: 10% !important; 
   margin-top:10%;
   }
+
+  .columnSuiteText2{
+    float: left;
+    width: 50%;
+    max-height: 100% !important;
+    padding: 5%;
+    margin-left: 10% !important; 
+    margin-top:10%;
+    }
   
   .columnTextm{
   float: left;
@@ -836,12 +886,26 @@ max-height:100% !important;
   width: 100% !important;
   padding: 3%; 
   }
+
+  .columnTextSuite{
+    width: 100% !important;
+    padding: 3% !important; 
+    margin-block-start: 0em !important;
+  }
   .columnText2{
   width: 95% !important;
   padding:3% !important;
   margin-top:15%;
   margin-left:3% !important;
   margin-right:5% !important;
+  }
+
+  .columnSuiteText2{
+    width: 95% !important;
+    padding:3% !important;
+    margin-top:15%;
+    margin-left:3% !important;
+    margin-right:5% !important;
   }
   
   .columnTextm{
@@ -1154,6 +1218,14 @@ max-height:100% !important;
   padding: 3%; 
   }
   .columnText2{
+  width: 100% !important;
+  padding:3% !important;
+  margin-top:5%;
+  margin-left:3% !important;
+  margin-right:5% !important;
+  }
+
+  .columnSuiteText2{
   width: 100% !important;
   padding:3% !important;
   margin-top:5%;
