@@ -35,12 +35,18 @@
 	color:#1f1f1f;
 }
 
-.bg-gray{
+.bg-gray, .suite-contact-form{
 	padding-top:50px;
 	background: #939797;
 	color:#fff;
 }
 
+.suite-contact-form{
+  padding:3em;
+  border-radius:1em;
+	background: #939797;
+	color:#fff;
+}
 .bg-white{
 	padding-top:50px;
 	background: #ffffff;
@@ -2336,7 +2342,61 @@ ul.social {
   .notification.error:after {
     background-image: url(../images/warning.svg); }
 
-/*------- Contact-form CSS END -------*/
+/*------- Suite Contact-form -------*/
+
+
+/*-------------------- 12. Contact-form -----------------*/
+.contact {
+  background-image: url(../images/linear-bg.png);
+  background-size: cover;
+  background-attachment: fixed; }
+
+.suite-contact-form {
+  padding: 60px 60px 60px 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  position: relative; 
+  font-family: 'Lato', sans-serif;
+}
+  .suite-contact-form input {
+    font-family: 'Lato', sans-serif !important;
+    height: 50px; }
+  .suite-contact-form .form-group {
+    margin-bottom: 30px;
+    position: relative; }
+  .suite-contact-form label {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    height: 20px;
+    margin-top: -10px;
+    pointer-events: none;
+    transition: all 350ms cubic-bezier(0.285, 0.105, 0.465, 1.015);
+    color: #000;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+  }
+
+.suite-contact-form input, .suite-contact-form textarea {
+  font-family: 'Lato', sans-serif !important;
+  border: 1px solid transparent;
+  box-shadow: none !important;
+  border-radius: 0;
+  padding-left: 0;
+  color: #414141;
+  transition: all 350ms cubic-bezier(0.285, 0.105, 0.465, 1.015);
+  padding: 15px; }
+  .suite-contact-form input:focus, .suite-contact-form textarea:focus {
+    font-family: 'Lato', sans-serif;
+    border-color: #FFF;
+  }
+  .suite-contact-form input:focus + label, .suite-contact-form input:valid + label, .suite-contact-form textarea:focus + label, .suite-contact-form textarea:valid + label {
+    top: -10px;
+    left: 0;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+  }
 
 /*-------------------- 12. Contact-form -----------------*/
 .contact {
