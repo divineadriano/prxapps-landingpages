@@ -1640,7 +1640,7 @@ color:#fff;  }
   opacity: 0.7;
   color: #f5f5f5; }
 
-.btn-alpha, .btn-white, .menu-btn {
+.btn-alpha, .btn-white, .menu-btn, .btn-secondary {
   transition: 0.2s ease;
   border-radius: 4px;
   padding: 0 30px !important;
@@ -1655,12 +1655,26 @@ color:#fff;  }
 .btn-alpha {
   background-color: #8C8C8C;
   color: #fff !important;
-  border: 2px solid tranparent; }
-  .btn-alpha:hover {
-    background: url("../images/bg-pattern.png"),-moz-linear-gradient( 135deg, #48A48E, #0A786B 50%, #0E7674 100%);
-    background: url("../images/bg-pattern.png"), -webkit-linear-gradient( 135deg, #48A48E 0%, #0A786B 50%, #0E7674 100%);
-    background: url("../images/bg-pattern.png"), -ms-linear-gradient( 135deg, #48A48E 0%, #0A786B 50%, #0E7674 100%);
-    background: url("../images/bg-pattern.png"), linear-gradient( 135deg, #48A48E 0%, #0A786B 50%, #0E7674 100%); }
+}
+
+.btn-alpha:hover {
+  background: url("../images/bg-pattern.png"),-moz-linear-gradient( 135deg, #48A48E, #0A786B 50%, #0E7674 100%);
+  background: url("../images/bg-pattern.png"), -webkit-linear-gradient( 135deg, #48A48E 0%, #0A786B 50%, #0E7674 100%);
+  background: url("../images/bg-pattern.png"), -ms-linear-gradient( 135deg, #48A48E 0%, #0A786B 50%, #0E7674 100%);
+  background: url("../images/bg-pattern.png"), linear-gradient( 135deg, #48A48E 0%, #0A786B 50%, #0E7674 100%);
+}
+
+.btn-secondary {
+  background-color: #0E7674;
+  color: #fff !important;
+  border: 2px solid #fff; 
+}
+
+.btn-secondary:hover {
+  color: #0E7674 !important;
+  background-color: #fff !important;
+  border: 2px solid #fff; 
+}
 
 .btn-white, .menu-btn {
   color: #fff;
