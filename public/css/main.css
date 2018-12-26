@@ -602,9 +602,18 @@ clear: both;
 max-height:100% !important;
 }
 
+body, html, #home{
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
 
 
 @media only screen and (max-width: 1440px){
+  body, html, #home{
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
+
   .kycgiftext{
     padding-right: 10em !important;
   }
@@ -782,6 +791,10 @@ max-height:100% !important;
 
 @media only screen and (max-width: 1280px){
   
+  body, html, #home{
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
   .kycgiftext{
     padding-right: 10em !important;
   }
@@ -861,6 +874,10 @@ max-height:100% !important;
   }
 }
 @media only screen and (max-width: 479px) {
+  body, html, #home{
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
   h1{
     font-size:2.5em !important;
   }
@@ -1164,6 +1181,10 @@ max-height:100% !important;
 
 @media only screen and (max-width: 1024px) {
 
+  body, html, #home{
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
   
   .kycgifBeforeText{
     font-size:1.5em !important;
