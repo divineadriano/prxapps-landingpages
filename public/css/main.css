@@ -1379,6 +1379,10 @@ body, html, #home{
   .howto-image{
     width:90%;
   }
+
+  .Suitefeatureimages{
+    width:50%;
+  }
 }
 
 .align-item-center {
