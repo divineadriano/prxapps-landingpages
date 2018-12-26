@@ -849,7 +849,7 @@ body, html, #home{
 
   .columnTextSuite{
     float: left;
-    width: 100%;
+    width: 50%;
     max-height: 100% !important;
     padding: 5%;
   }
@@ -991,17 +991,6 @@ body, html, #home{
   max-height:100% !important;
   }
 
-    /*END OF FOR COLUMNS*/
-
-
-
-  body{
-    overflow-x: hidden;
-  }
-
-  #home{
-    overflow-x:hidden;
-  }
   .kycgifTextHeader{
     font-size: 2em;
   }
@@ -1270,6 +1259,12 @@ body, html, #home{
   margin-left:3% !important;
   margin-right:5% !important;
   }
+
+
+  .columnTextSuite{
+    width: 100% !important;
+    padding:3% !important;
+  }
   
   .columnTextm{
   width: 60% !important;
@@ -1345,7 +1340,6 @@ body, html, #home{
     width:20%;
   }
   .sticky-header{
-    padding-top:5% !important;
     overflow: hidden;
     z-index: 10000;
   }
