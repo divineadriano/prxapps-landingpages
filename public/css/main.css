@@ -1217,6 +1217,9 @@ body, html, #home{
     margin-top:1em;
     font-size: 1.3em !important;
   }
+  .headerlogo{
+    width:60% !important;
+  }
   .headersubText{
     font-weight:normal;
     font-size:0.8em;
