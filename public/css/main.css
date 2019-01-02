@@ -186,6 +186,13 @@
   font-size: 2em !important;
 }
 
+#typed{
+  font-size:2em;
+}
+
+.typed-cursor, .typed-cursor--blink{
+  font-size:2em;
+}
 .suiteheaderbutton{
   margin-bottom: 10em;
 }
