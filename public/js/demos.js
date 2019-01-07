@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     typeSpeed: 50,
     backSpeed: 50,
     startDelay: 1000,
-    loop: false,
+    loop: true,
     loopCount: Infinity,
     onComplete: function(self) { prettyLog('onComplete ' + self) },
     preStringTyped: function(pos, self) { prettyLog('preStringTyped ' + pos + ' ' + self); },
@@ -17,6 +17,22 @@ document.addEventListener('DOMContentLoaded', function() {
     onStart: function(pos, self) { prettyLog('onStart ' + pos + ' ' + self) },
     onDestroy: function(self) { prettyLog('onDestroy ' + self) }
   });
+
+
+  var acc = document.getElementsByClassName("accordion");
+   var i;
+   
+   for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+         this.classList.toggle("active");
+         var panel = this.nextElementSibling;
+         if (panel.style.display === "block") {
+         panel.style.display = "none";
+         } else {
+         panel.style.display = "block";
+         }
+      });
+   }
 
   document.querySelector('.toggle').addEventListener('click', function() {
     typed.toggle();
