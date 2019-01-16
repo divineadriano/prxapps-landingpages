@@ -37,7 +37,7 @@
 
 .bg-gray{
 	padding-top:50px;
-	background: #939797;
+	background: #6b6b6b;
 	color:#fff;
 }
 
@@ -119,6 +119,11 @@
   margin-top: 10px;
 }
 
+.headerText{
+  padding-left:10%;
+  padding-right:10%;
+}
+
 .appIcon{
   margin-top: 5%;
   width:10%;
@@ -187,7 +192,7 @@
 }
 
 .typed-cursor, .typed-cursor--blink, #typed, .subtext{
-  font-size:2em;
+  font-size:3.5em;
   font-weight: bold;
 }
 
@@ -331,7 +336,7 @@
 #thumbnail-slider {
   margin:0 auto; /*center-aligned*/
   max-width:2000px;
-  padding:0;
+  padding:1em;
   box-sizing:border-box;
   position:relative;
   -webkit-user-select: none;
@@ -431,6 +436,78 @@ filter: initial;*/
 
 
 /***************************************/
+
+
+/* Slideshow container */
+.slideshow-container {
+  float:left;
+  width:50%;
+  position: relative;
+  padding-left:10%;
+  padding-top:5%;
+}
+
+/* Slides */
+.mySlides {
+  padding-left:10%;
+  padding-right:10%;
+  display: none;
+  transition: visibility 0s, opacity 1 linear;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -30px;
+padding: 16px;
+color: #888;
+font-weight: bold;
+font-size: 20px;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+position: absolute;
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  float:right;
+  width:50%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+float:left;
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+background-color: #717171;
+}
+
 .about{
   /*margin: 0;padding: 0;*/
   list-style: none;
@@ -809,7 +886,7 @@ margin-right:10% !important;
 }
 .columnGif2{
 float: left;
-width: 50%;
+width: 40%;
 padding-left:5% !important;
 }
 
@@ -1116,6 +1193,50 @@ body, html, #home{
 
   #thumbnail-slider {
     max-width:479px !important;
+  }
+  .secondFrame{
+    padding-left:10% !important;
+    padding-right:10% !important;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    width:100%;
+    padding-left:0%;
+    padding-top:0%;
+  }
+
+  .dot-container {
+    text-align: center;
+    float: none;
+    width:100%;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+  float:none;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  }
+
+  .suiteheaderbutton{
+    margin-bottom: 1em;
+  }
+  
+  .introText{
+    margin-top:5%;
+    padding:5% 10%;
+  }
+
+  .suitebannerlogo{
+    width: 80% !important;
+    margin-top: 5%;
   }
 }
 
