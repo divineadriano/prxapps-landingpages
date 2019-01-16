@@ -143,6 +143,36 @@ function toggleLoop(typed) {
   }
 }
 
+$(document).ready(function(){
+  $('.center').slick({
+    centerMode: true,
+    centerPadding: '10px',
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 28,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '10px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 80,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '10px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+
+
+
 var slideIndex = 1;
       showSlides(slideIndex);
       
