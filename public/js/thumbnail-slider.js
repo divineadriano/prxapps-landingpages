@@ -17,8 +17,7 @@ var thumbnailSliderOptions =
     rightGap: 0,
     keyboardNav: true,
     mousewheelNav: false,
-    before: null,
-    license: "mylicense"
+    before: null
 };
 
 var mcThumbnailSlider = new ThumbnailSlider(thumbnailSliderOptions);
