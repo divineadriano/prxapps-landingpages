@@ -31,7 +31,7 @@
 }
 .dark-template-bg-gray{
 	padding-top:50px;
-	background: #ebebeb;
+	background: #e4e5e6;
 	color:#1f1f1f;
 }
 
@@ -861,8 +861,9 @@ padding-left:10% !important;
   float: left;
   width: 50%;
   max-height: 100% !important;
-  padding: 2%; 
-  padding-left:10% !important;
+  padding-left:5% !important;
+  padding-right:5%;
+  padding-top:5%;
 }
 
 .columnText2{
@@ -1903,7 +1904,7 @@ body, html, #home{
   justify-content: space-between; }
 
 .template-color {
-  color: #0E7674; }
+  color: #048BA0; }
 
 .template-bg {
   background-color: #3455ff;
