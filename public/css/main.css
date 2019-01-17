@@ -125,7 +125,7 @@
   margin-top: 10px;
 }
 
-.headerText{
+.suiteHeaderText{
   padding-left:10%;
   padding-right:10%;
   font-size: 2em;
@@ -203,13 +203,35 @@
 }
 
 .typed-cursor, .typed-cursor--blink, #typed, .subtext{
-  font-size:3.5em;
+  font-size:3em;
   font-weight: bold;
 }
 
 #typed{
-  color: #036d67;
+  color: #048ba0;
+  animation:colorchange 20s;
+  -moz-animation:colorchange 20s infinite; /* Firefox */
+  -webkit-animation:colorchange 20s infinite; /* Safari and Chrome */
 }
+
+@-moz-keyframes colorchange /* Firefox */
+{
+  0%   {color:#79b6e4;}
+  25%   {color:#14b6ac;}
+  50%   {color:#f4a91c;}
+  75%   {color:#f16623;}
+  100%   {color:#048ba0;}
+}
+ 
+@-webkit-keyframes colorchange /* Firefox */
+{
+  0%   {color:#79b6e4;}
+  25%   {color:#14b6ac;}
+  50%   {color:#f4a91c;}
+  75%   {color:#f16623;}
+  100%   {color:#048ba0;}
+}
+  
 .suiteheaderbutton{
   margin-bottom: 3em;
 }
@@ -254,7 +276,7 @@
 
 .dropdown-menu{
   border:none;
-  background: #036d67;
+  background: #048ba0;
 }
 
 .dropdown-menu li a{
@@ -1543,10 +1565,6 @@ body, html, #home{
   .fileitlogo{
     width:80% !important;
   }
-  .headerText{
-    margin-top:1em;
-    font-size: 1.3em !important;
-  }
   .headersubText{
     font-weight:normal;
     font-size:0.8em;
@@ -1707,10 +1725,6 @@ body, html, #home{
   
   .featureTextSub{
     font-size: 1.5em !important;
-  }
-  .headerText{
-    margin-top:1em;
-    font-size: 1.3em !important;
   }
   .headerlogo{
     width:60% !important;

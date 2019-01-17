@@ -19,6 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
     onDestroy: function(self) { prettyLog('onDestroy ' + self) }
   });
 
+  console.log(typed);
+
 
   
   var slideIndex = 1;
