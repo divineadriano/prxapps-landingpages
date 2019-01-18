@@ -111,9 +111,12 @@ strong {
 textarea {
   resize: none; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700; }
+h1, h2{
+  font-weight: 300; }
 
+h3, h4, h5, h6 {
+ font-weight:200;
+}
 h2 {
   font-size: 2.3em;
   margin-top: 0; }
@@ -332,7 +335,7 @@ a, button {
   padding: 0 30px !important;
   border: none;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-  font-weight: 800;
+  font-weight: 300;
   display: inline-block;
   line-height: 40px !important;
   font-size: 0.85em;
@@ -450,7 +453,7 @@ a, button {
   font-size: 0.85em;
   padding: 15px 10px;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 1000;
   color: #fff; }
   .navbar-nav > li > a:hover {
     color: #34bbff; }
@@ -940,7 +943,8 @@ div.timer {
     color: rgba(255, 255, 255, 0.8);
     font-size: 0.75em;
     letter-spacing: 2px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: 300; }
 
 .contact-form input, .contact-form textarea {
   border: 1px solid transparent;
