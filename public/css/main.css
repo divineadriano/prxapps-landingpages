@@ -208,6 +208,7 @@
 .substrings{
   font-size:3em;
   font-weight:500;
+  padding: 1em;
 }
 .typed-cursor, .typed-cursor--blink, #typed, .subtext, .type-wrap, .type-strings{
   font-weight: 500;
