@@ -60,7 +60,7 @@
 }
 
 .bg-darkgreen{
-  background: #00807b;
+  background: #3287c6;
   color:white;
 }
 
@@ -191,7 +191,7 @@
   width:15%;
   height:2.3em;
   border:none;
-  background: #036d67;
+  background: #3287c6;
   border-radius:0.3em;
   padding-left:0.5em !important;
   margin-right: 0.1em;
@@ -207,11 +207,8 @@
 
 .substrings{
   font-size:3em;
-  font-weight:500;
   padding: 1em;
-}
-.typed-cursor, .typed-cursor--blink, #typed, .subtext, .type-wrap, .type-strings{
-  font-weight: 500;
+  font-weight: bold;
 }
 
 #typed{
@@ -783,7 +780,7 @@ background-color: #414141;
   font-size: 1.5em !important;
 }
 .gifheader{
-  color:#036d67;
+  color:#3287c6;
 }
 
 .links-section{
@@ -1062,14 +1059,6 @@ body, html, #home{
     margin-top: 5% !important;
   }
   
-  .columnTextm{
-  float: left;
-  width: 50%;
-  max-height: 100% !important;
-  padding: 5%;
-  margin-left: 5% !important;
-  margin-top:5%;
-  }
   
   .columnGif{
   float: left;
@@ -1144,11 +1133,6 @@ body, html, #home{
     margin-right:5% !important;
   }
   
-  .columnTextm{
-  width: 100% !important;
-  padding: 3% !important;
-  margin-top:5% ;
-  }
   
   .columnGif{
   width: 100% !important;
@@ -1210,7 +1194,7 @@ body, html, #home{
   .dropdown-toggle:hover{
     border:none;
     font-weight:bold;
-    background: #036d67 !important;
+    background: #3287c6 !important;
     color: #fff !important;
   }
 
@@ -1227,13 +1211,13 @@ body, html, #home{
     margin-top: 0% !important;
     border:none;
     font-weight:bold;
-    background: #036d67 !important;
+    background: #3287c6 !important;
     color: #fff !important;
   }
 
   .dropdown-menu{
     border:none;
-    background: #036d67;
+    background: #3287c6;
   }
 
   .dropdown-menu li a{
@@ -1242,7 +1226,7 @@ body, html, #home{
 
   .btn-contact{
     border:none;
-    color: #036d67 !important;
+    color: #3287c6 !important;
   }
   
   .btn-login{
@@ -1258,13 +1242,6 @@ body, html, #home{
   .secondFrame{
     padding-left:10% !important;
     padding-right:10% !important;
-  }
-
-  /* Slideshow container */
-  .slideshow-container {
-    width:100%;
-    padding-left:0%;
-    padding-top:0%;
   }
 
   .dot-container {
@@ -1300,6 +1277,22 @@ body, html, #home{
     width: 80% !important;
     margin-top: 5%;
   }
+
+  .substrings{
+    font-size:1.2em;
+  }
+  .introText{
+    font-size: 1.8em;
+    font-weight: 800;
+    color: #f4a91c;
+  }
+
+  .slideshow-container{
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
+  }
+
 }
 
 @media only screen and (max-width: 1280px){
@@ -1359,15 +1352,6 @@ body, html, #home{
     padding: 5%;
   }
 
-  .columnTextm{
-  float: left;
-  width: 50%;
-  max-height: 100% !important;
-  padding: 5%;
-  margin-left: 5% !important;
-  margin-top:5%;
-  }
-  
   .columnGif{
   float: left;
   width: 60% !important;
@@ -1435,7 +1419,7 @@ body, html, #home{
 
   .columnTextSuite{
     width: 100% !important;
-    padding: 3% !important; 
+    padding: 10% !important; 
     margin-block-start: 0em !important;
   }
   .columnText2{
@@ -1454,11 +1438,6 @@ body, html, #home{
     margin-right:5% !important;
   }
   
-  .columnTextm{
-  width: 100% !important;
-  padding: 3% !important;
-  margin-top:5% ;
-  }
   
   .columnGif{
   width: 100% !important;
@@ -1579,7 +1558,7 @@ body, html, #home{
     width:40%;
     height:2.3em;
     border:none;
-    background: #036d67;
+    background: #3287c6;
     border-radius:0.3em;
     padding-left:0.5em !important;
     margin-right: 0.1em;
@@ -1695,20 +1674,20 @@ body, html, #home{
 
 .thirdFrameHeader{
   padding-right:10%;
-  color:#036d67;
+  color:#3287c6;
 }
 
 .thirdFrameFeatures{
-  width: 100%;
+  width: 100% !important;
   max-height: 100% !important;
-  margin-top:5%;
+  margin-top:0% !important;
 }
 
 .thirdFrameFeatures2{
-  width: 100%;
+  width: 100% !important;
   max-height: 100% !important;
   margin-top:5%;
-  margin-left:0%;
+  margin-left:0% !important;
 }
 
 /****************************/
@@ -1803,15 +1782,9 @@ body, html, #home{
 
   .columnTextSuite{
     width: 100% !important;
-    padding:3% !important;
+    padding:10% !important;
   }
-  
-  .columnTextm{
-  width: 60% !important;
-  padding: 3% !important;
-  margin-top:5% ;
-  }
-  
+
   .columnGif{
   width: 100% !important;
   padding:5% !important;
@@ -1834,7 +1807,7 @@ body, html, #home{
   
   .parent{
   margin-top: 5% !important;
-  padding-bottom: 30% !important;
+  padding-bottom: 5% !important;
   width:80% !important;
   }
   
@@ -1877,7 +1850,7 @@ body, html, #home{
     margin-top: 10%;
   }
   .headerlogo{
-    width:20%;
+    width:30% !important;
   }
   .sticky-header{
     overflow: hidden;
@@ -1889,10 +1862,6 @@ body, html, #home{
     left:0;
     max-width: 100%;
     overflow: hidden;
-  }
-
-  .kycfeatures-img{
-    width: 100%;
   }
   .about{
     margin: 1.5em;
@@ -1922,6 +1891,34 @@ body, html, #home{
 
   .Suitefeatureimages{
     width:50%;
+  }
+  .slideshow-container{
+    width:100%;
+  }
+  .mySlides {
+    padding-left:0%;
+    padding-right:10%;
+    width:100%;
+    transition: visibility 0s, opacity 1 linear;
+  }
+
+  .thirdFrameFeatures{
+    float: left;
+    width: 30%;
+    max-height: 100% !important;
+    margin-top:5%;
+  }
+  
+  .thirdFrameFeatures2{
+    float: left;
+    width: 30%;
+    max-height: 100% !important;
+    margin-top:5%;
+    margin-left:5%;
+  }
+
+  .accordion-panel {
+    padding: 2% 10% 5% 10%;
   }
 }
 
@@ -2361,7 +2358,7 @@ color:#fff;  }
 
 @media (max-width: 991px) {
   .navbar-collapse {
-    background-color: #00807b; 
+    background-color: #3287c6; 
 	color: #616161;} }
 .navbar-nav > li > a {
   font-size: 1.2em;
@@ -3588,7 +3585,7 @@ ul.template-list li {
   .navbar-toggle {
     position: relative;
     display: inline-block;
-    width: 53px; }
+    width: 45px; }
     .navbar-toggle .icon-bar {
       background-color: #fff;
       width: 100%;
