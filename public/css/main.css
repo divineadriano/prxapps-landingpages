@@ -3274,10 +3274,10 @@ ul.template-list li {
   animation: circleBouncing 2s infinite ease-in-out; }
 
 .loader-dots .circle-1 {
-  background-color: #29938d; }
+  background-color: #3278c6; }
 
 .loader-dots .circle-2 {
-  background-color: #0E7674;
+  background-color: #2769b4;
   top: auto;
   bottom: 0;
   -webkit-animation-delay: -1s;
