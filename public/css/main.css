@@ -67,9 +67,9 @@
 .bg-gradient{
   padding-top:50px;
   color:white;
-	background-image: -moz-linear-gradient( 135deg, #2CB4AB , rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
-  background-image:   -webkit-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
-  background-image:  linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
+	background-image: -moz-linear-gradient( 135deg, #f4a91c , rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:   -webkit-linear-gradient( 135deg, #f4a91c  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:  linear-gradient( 135deg, #f4a91c  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -77,10 +77,10 @@
 .imgBackground{
   padding-top:50px;
   color:white;
-	background-image: url("../images/kyc/p2.jpg"), -moz-linear-gradient( 135deg, #2CB4AB , rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
-  background-image:  url("../images/kyc/p2.jpg"), -webkit-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
-  background-image:  url("../images/kyc/p2.jpg"), -ms-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
-  background-image: url("../images/kyc/p2.jpg"), linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
+	background-image: url("../images/kyc/p2.jpg"), -moz-linear-gradient( 135deg, #f4a91c , rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:  url("../images/kyc/p2.jpg"), -webkit-linear-gradient( 135deg, #f4a91c  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:  url("../images/kyc/p2.jpg"), -ms-linear-gradient( 135deg, #f4a91c  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image: url("../images/kyc/p2.jpg"), linear-gradient( 135deg, #f4a91c  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -88,10 +88,10 @@
 .imgBackground2{
   padding-top:50px;
   color:white;
-	background-image: url("../images/kyc/p4.jpg"), -moz-linear-gradient( 135deg, #2CB4AB , rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
-  background-image:  url("../images/kyc/p4.jpg"), -webkit-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
-  background-image:  url("../images/kyc/p4.jpg"), -ms-linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
-  background-image: url("../images/kyc/p4.jpg"), linear-gradient( 135deg, #2CB4AB  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
+	background-image: url("../images/kyc/p4.jpg"), -moz-linear-gradient( 135deg, #f4a91c , rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:  url("../images/kyc/p4.jpg"), -webkit-linear-gradient( 135deg, #f4a91c  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image:  url("../images/kyc/p4.jpg"), -ms-linear-gradient( 135deg, #f4a91c  0%, rgb(27, 168, 159) 50%,  rgb(5, 110, 103) 100%);
+  background-image: url("../images/kyc/p4.jpg"), linear-gradient( 135deg, #f4a91c  0%, rgb(27, 168, 159)  50%,  rgb(5, 110, 103) 100%);
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -2370,7 +2370,7 @@ color:#fff;  }
 
 .navbar-nav li.active a, .navbar-nav > li > a:focus, .navbar-nav > li > a:hover, .navbar-nav > li > a:active {
   background-color: transparent; 
-  color: #2cb4ab; }
+  color: #f4a91c; }
 
 .navbar-nav li.active a {
   color: #fff !important; }
