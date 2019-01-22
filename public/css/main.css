@@ -1934,7 +1934,7 @@ body, html, #home{
   }
 
   .fullWidth{
-    height:300px !important;
+    height:300px;
   }
 
 }
