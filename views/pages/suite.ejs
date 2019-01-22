@@ -18,6 +18,7 @@
    <!-- Bootstrap Dropdown Hover CSS -->
    <link href="css/dropdown/css/animate.min.css" rel="stylesheet">
    <link href="css/dropdown/cssbootstrap-dropdownhover.min.css" rel="stylesheet">
+   
 
    <!--Favicon icon-->
 
@@ -70,6 +71,11 @@
          opacity:1;filter:"alpha(opacity=100)";
          -ms-filter:"alpha(opacity=100)";
       }
+      .w3-animate-right{
+         position:relative;
+         animation:animateright 0.4s
+      }
+      @keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
    </style>
 
 </head>
@@ -317,19 +323,19 @@
          </div>
          <div class="columnTextSuite2">
                <div class="slideshow-container">
-                  <div class="mySlides wow fadeInUp">
+                  <div class="mySlides w3-animate-right">
                      <p class="smallText" >Secure & Private</p>
                      <h2>Blockchain Asymmetric Encryption </h2>
                      <p>The first of its kind, ProximaX Suite deploys a blockchain asymmetric encryption technology that seamlessly enables file owners to decrypt their own files. The naturally demanding asymmetric encryption takes on a pioneering mathematical approach to protecting data, different from most cloud providers’ AES-256 encryption. This means users of ProximaX Suite like you have absolute control to create, edit, share, and delete your own files safely and securely. </p>
                      
                   </div>
-                  <div class="mySlides">
+                  <div class="mySlides w3-animate-right">
                      <p class="smallText" >Distributed & Scalable</p>
                      <h2 >Efficient File Organization Tool</h2>
                      <p>Users are able to store encrypted information in a distributed environment where files in a decentralised network are broken apart and spread across various nodes, making it impossible for anyone to access the entire content as the files are sharded. ProximaX Suite combines both blockchain and IPFS technology backed by Tendermint consensus mechanism. Each file has its unique cryptographic hash which is searchable in the blockchain explorer.</p>
                      
                   </div>
-                  <div class="mySlides">
+                  <div class="mySlides w3-animate-right">
                      <p class="smallText" >Easy to Use & Resilient</p>
                      <h2 >Blockchain-based File Encryption </h2>
                      <div >
