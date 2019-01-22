@@ -133,9 +133,11 @@
 }
 
 .introText{
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 800;
-  color: #f4a91c;
+  color: #525252;
+  padding-top:5%;
+  font-kerning: normal;
 }
 
 .appIcon{
@@ -206,9 +208,12 @@
 }
 
 .substrings{
-  font-size:3em;
-  padding: 1em;
-  font-weight: bold;
+  font-size:2.5em;
+  padding-top:0.3em;
+  padding-bottom:1em;
+  font-weight: 400;
+  color: #525252;
+  
 }
 
 #typed{
@@ -1271,6 +1276,7 @@ body, html, #home{
     margin-top:5%;
     padding:5% 10%;
     color: #f4a91c;
+    font-kerning: normal;
   }
 
   .suitebannerlogo{
@@ -2237,6 +2243,7 @@ color:#fff;  }
 .btn-secondary {
   background-color: #f4a91c;
   color: #fff !important;
+  margin-top:1rem;
 }
 
 .btn-secondary:hover {
