@@ -829,7 +829,7 @@ background-color: #414141;
 }
 .gif-inside
 {
-  margin-top:3%;
+  margin-top:3.5%;
   margin-left:14%;
   width:92%;
   z-index: 2;
@@ -850,7 +850,7 @@ background-color: #414141;
 }
 .gif-inside-m
 {
-  margin-top:4%;
+  margin-top:2.5%;
   margin-left: 2.5%;
   width:45%;
   z-index: 1;
@@ -1009,7 +1009,7 @@ body, html, #home{
   }
   .gif-inside
   {
-    margin-top:3%;
+    margin-top:3.5%;
     margin-left:14%;
     width:87%;
     z-index: 2;
@@ -1024,7 +1024,7 @@ body, html, #home{
   }
   .gif-inside
   {
-    margin-top:3%;
+    margin-top:3.5%;
     margin-left:14%;
     width:87%;
     z-index: 2;
@@ -1277,7 +1277,6 @@ body, html, #home{
   .introText{
     margin-top:5%;
     padding:5% 10%;
-    color: #f4a91c;
     font-kerning: normal;
   }
 
@@ -1292,7 +1291,6 @@ body, html, #home{
   .introText{
     font-size: 1.8em;
     font-weight: 800;
-    color: #f4a91c;
   }
 
   .slideshow-container{
@@ -1323,7 +1321,7 @@ body, html, #home{
   }
   .gif-inside
   {
-    margin-top:3%;
+    margin-top:3.5%;
     margin-left:14%;
     width:87%;
     z-index: 2;
