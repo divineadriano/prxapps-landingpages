@@ -175,6 +175,7 @@ var slideIndex = 1;
     dots[slideIndex-1].className += " active";
   }
 
+  
 $(document).ready(function(){ 
   $(window).scroll(function(){ 
       if ($(this).scrollTop() > 100) { 
