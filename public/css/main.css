@@ -767,7 +767,9 @@ background-color: #414141;
 .deviceRow{
   padding-bottom: 20%;
 }
-
+.fullWidth{
+  height:600px;
+}
 .notes-deviceRow{
   padding-bottom: 10% !important;
 }
@@ -1297,6 +1299,10 @@ body, html, #home{
     margin-top: 5%;
     padding-left: 10%;
     padding-right: 5%;
+  }
+
+  .fullWidth{
+    height:200px;
   }
 
 }
@@ -1926,6 +1932,11 @@ body, html, #home{
   .accordion-panel {
     padding: 2% 10% 5% 10%;
   }
+
+  .fullWidth{
+    height:300px;
+  }
+
 }
 
 .align-item-center {
