@@ -39,6 +39,39 @@
    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
    <meta name="theme-color" content="#ffffff">
 
+   <style>
+      #scroll {
+         position:fixed;
+         right:10px;
+         bottom:10px;
+         cursor:pointer;
+         width:50px;
+         height:50px;
+         background-color:#3498db;
+         text-indent:-9999px;
+         display:none;
+         -webkit-border-radius:60px;
+         -moz-border-radius:60px;
+         border-radius:60px
+      }
+      #scroll span {
+         position:absolute;
+         top:50%;
+         left:50%;
+         margin-left:-8px;
+         margin-top:-12px;
+         height:0;
+         width:0;
+         border:8px solid transparent;
+         border-bottom-color:#ffffff;
+      }
+      #scroll:hover {
+         background-color:#e74c3c;
+         opacity:1;filter:"alpha(opacity=100)";
+         -ms-filter:"alpha(opacity=100)";
+      }
+   </style>
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="82">
 
@@ -86,7 +119,7 @@
                      </button>
                      <ul class="dropdown-menu">
                         <li><a href="#">For Individual</a></li>
-                        <li><a href="#">FOr Business</a></li>
+                        <li><a href="#">For Business</a></li>
                         <li><a href="#">For Education</a></li>
                      </ul>
                   </div>
@@ -111,7 +144,7 @@
       </div>
    </nav>
 
-   
+   <a href="#" id="scroll" style="display: none;"><span></span></a>
 
    <!--HOME-->
    <section id="home">
@@ -149,7 +182,7 @@
                          jssor_1_slider_init = function() {
                  
                              var jssor_1_options = {
-                               $AutoPlay: 0,
+                               $AutoPlay: 1,
                                $SlideWidth: 600,
                                $ArrowNavigatorOptions: {
                                  $Class: $JssorArrowNavigator$
@@ -263,7 +296,7 @@
    
                      Our meticulous engineering at ProximaX helps protect your important information from the increasingly rampant incidences of data theft and fraud, occurring at centralised and cloud-hosted sites across the world. 
                      
-                     With ProximaX Suite now making its entry, it is time your intellectual property find a safe and secured haven to stay in.
+                     With ProximaX Suite, it is time your intellectual property finds a safe and secure haven to stay in.
                      </p>
                </div>
             </div>
@@ -291,16 +324,16 @@
                      
                   </div>
                   <div class="mySlides">
-                     <p class="smallText" >Distributed and Scalable</p>
+                     <p class="smallText" >Distributed & Scalable</p>
                      <h2 >Efficient File Organization Tool</h2>
                      <p>Users are able to store encrypted information in a distributed environment where files in a decentralised network are broken apart and spread across various nodes, making it impossible for anyone to access the entire content as the files are sharded. ProximaX Suite combines both blockchain and IPFS technology backed by Tendermint consensus mechanism. Each file has its unique cryptographic hash which is searchable in the blockchain explorer.</p>
                      
                   </div>
                   <div class="mySlides">
-                     <p class="smallText" >Easy to Use and Resilient</p>
+                     <p class="smallText" >Easy to Use & Resilient</p>
                      <h2 >Blockchain-based File Encryption </h2>
                      <div >
-                        <p>File owners have full access and control of their own data. Users are able to create, edit and share any file safely powered by ProximaX blockchain layer at its core. Instead of an AES encryption key, the blockchain asymmetric encryption allows only owners to decrypt every file itself. </p>
+                        <p>File owners have full access and control of their own data. Users are able to create, edit and share any file safely powered by ProximaX blockchain layer at its core. Instead of an AES encryption key, the blockchain asymmetric encryption allows only owners to decrypt each file. </p>
                      </div>
                   </div>
                </div>
@@ -324,11 +357,11 @@
    <section class=" burger bg-white deviceRow">
       <div class="row">
       <div class="col-lg-12 thirdFrame">
-         <h1 class="wow fadeInUp thirdFrameHeader" data-wow-delay=".5s" data-wow-duration="1s">A Decentralised Storage and Blockchain-Encrypted Application Designed for Workplace</h1>
+         <h1 class="wow fadeInUp thirdFrameHeader" data-wow-delay=".5s" data-wow-duration="1s">A Decentralised Storage and Blockchain-Encrypted Application Designed for the Workplace</h1>
          <div class="thirdFrameFeatures">
             <h2 class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s" style="color:#f4a91c;">Boost Your Office Productivity</h2>
             <div class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
-               <p>Create diagrams, text documents, spreadsheet and presentation all within one platform</p>
+               <p>Create diagrams, text documents, spreadsheets and presentations all within one platform</p>
             </div>
          </div>
          <div class="thirdFrameFeatures2">
@@ -368,7 +401,7 @@
       </div>
    </section>
 
-   <section class=" burger bg-white deviceRow fullWidth" style="background-image:url('images/img/full5.jpg');background-size:cover;background-repeat: no-repeat;width:100%;">
+   <section class=" burger bg-white deviceRow fullWidth" style="background-image:url('images/fistbump.jpg');background-size:cover;background-repeat: no-repeat;width:100%;">
       
    </section>
 
@@ -387,6 +420,8 @@
       <div class="accordion-panel">
          <form action="https://script.google.com/macros/s/AKfycbyvwTV-cuCODDOYTpHpJhnlT6qkLz6DXIC5gYFRSXHPFfz1nGg/exec" method="post">
             <div id="form-messages" class="notification contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration=".7s" ></div>
+            <p class="text-center">Email us at <i>apps@proximax.io</i> or by completing the form below:</p><br>
+            
             <div class="row">
                <div class="col-sm-6">
                   <div class="form-group">
