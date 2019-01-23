@@ -47,7 +47,7 @@ var NavBar = $('.navbar ');
 // redirect-btn - this class for smooth scroll of other button instead of header menu ..! 
 $(document).ready(function() {
     $('.redirect-btn, .navbar a').on('click', function(event) {
-        event.preventDefault();
+       // event.preventDefault();
         var target = $(this.hash);
         if ($(window).width() < 992) {
             $('body,html').animate({
