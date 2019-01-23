@@ -1303,6 +1303,9 @@ body, html, #home{
     height:200px !important;
   }
 
+  .navbar-nav > li > a {
+    color: #fff !important;
+  }
 }
 
 @media only screen and (max-width: 1280px){
