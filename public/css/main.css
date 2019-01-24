@@ -381,6 +381,9 @@
   margin-left:5%;
 }
 
+.thirdFrameText{
+  text-align: justify !important;
+}
 /****************************/
 
 /************THUMBNAIL SLIDER***********/
@@ -508,6 +511,8 @@ filter: initial;*/
   display: none;
   transition: visibility 0s, opacity 1 linear;
 }
+
+
 
 .smallText{
   color:#3287c6;
@@ -1703,6 +1708,10 @@ body, html, #home{
   margin-left:0% !important;
 }
 
+.thirdFrameText{
+  text-align: justify !important;
+}
+
 /****************************/
 
 .fourthFrame{
@@ -1928,6 +1937,10 @@ body, html, #home{
     max-height: 100% !important;
     margin-top:5%;
     margin-left:5%;
+  }
+
+  .thirdFrameText{
+    text-align: justify !important;
   }
 
   .accordion-panel {

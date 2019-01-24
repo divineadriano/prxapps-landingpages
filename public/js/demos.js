@@ -146,9 +146,6 @@ function toggleLoop(typed) {
 }
 
 
-
-
-'use strict';
 var slideIndex = 1;
 
 function plusSlides(n) {
@@ -175,8 +172,6 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
   
 $(document).ready(function(){ 
